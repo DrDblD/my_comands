@@ -1,2 +1,0 @@
-mkdir ~/.ssh && cd ~/.ssh && ssh-keygen
-ls | cat $(find . -name id_rsa*.pub) | xclip
