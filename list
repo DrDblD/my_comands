@@ -7,3 +7,18 @@
 # To copy a file from B to A while logged into A:
 
 #       scp username@b:/path/to/file /path/to/destination
+# A->B logged A
+        scp /home/atab/projects/my_comands/docker_get.sh atab@192.168.1.14:/home/atab/docker_get.sh
+
+
+# VENV
+        apt install python3-venv
+        python3 -m venv env
+        chmod u+x env/bin/activate
+        source env/bin/activate
+# ssh-key
+NAME=$@
+[ -n $NAME] && (ssh-keygen -f ~/.ssh/$NAME; cat $(find . -name $NAME.pub))
+ssh-copy-id -i ~/.ssh/$NAME.pub user@server
+sudo chmod 400 ~/.ssh/$NAME
+echo "ssh -i ~/.ssh/$NAME user@server"
