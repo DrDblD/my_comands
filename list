@@ -22,3 +22,13 @@ NAME=$@
 ssh-copy-id -i ~/.ssh/$NAME.pub user@server
 sudo chmod 400 ~/.ssh/$NAME
 echo "ssh -i ~/.ssh/$NAME user@server"
+
+# git config
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+git config --global core.excludesfile ~/.gitignore_global
+git config --global core.editor "code -r"
+git config --global diff.tool vscode
+git config --global difftool.vscode.cmd 'code --wait --diff $LOCAL $REMOTE'
+git config --global merge.tool vscode
+git config --global mergetool.vscode.cmd 'code --wait $MERGED'
