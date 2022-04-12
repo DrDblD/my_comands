@@ -32,3 +32,12 @@ git config --global diff.tool vscode
 git config --global difftool.vscode.cmd 'code --wait --diff $LOCAL $REMOTE'
 git config --global merge.tool vscode
 git config --global mergetool.vscode.cmd 'code --wait $MERGED'
+
+# Network Manager
+nmcli c edit id vpn # edit connection
+nmcli c show id vpn # show connection
+nmcli c up id vpn --ask # try to connect with passwords
+sudo journalctl -f > log.journal # monitore log to file
+
+
+
