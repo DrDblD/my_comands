@@ -1,0 +1,52 @@
+# init ARGS
+
+ARG ALPINE_VERSION=3.15.4
+ARG JDK=jdk-8u311-linux-x64.tar.gz
+# ARG JDK=jdk-8u321-linux-aarch64.tar.gz
+FROM alpine:${ALPINE_VERSION} AS builder
+
+# reuse ARGS inside FROM
+ARG JDK
+
+COPY ./lib/${JDK} /tmp
+
+ENV DOWNLOAD_PATH=/tmp \
+    TOMCAT_PATH=/opt/tomcat \
+    JAVA_HOME=/opt/java
+
+RUN mkdir $JAVA_HOME && \
+    mkdir $TOMCAT_PATH && \
+    apk add tar && \
+    apk add wget && \
+    apk add curl && \
+    apk add paxctl && \
+    curl -Lo /tmp/glibc-2.32-r0.apk https://github.com/sgerrand/alpine-pkg-glibc/releases/download/2.32-r0/glibc-2.32-r0.apk && \
+    wget -q https://archive.apache.org/dist/tomcat/tomcat-7/v7.0.109/bin/apache-tomcat-7.0.109.tar.gz -O $DOWNLOAD_PATH/apache-tomcat-7.0.109.tar.gz
+
+RUN tar -xf $DOWNLOAD_PATH/${JDK} --strip-components 1 -C $JAVA_HOME/ && \
+    tar -xf $DOWNLOAD_PATH/apache-tomcat-7.0.109.tar.gz --strip-components 1 -C $TOMCAT_PATH/
+    
+
+FROM alpine:${ALPINE_VERSION}
+
+ENV JAVA_HOME=/opt/java
+ENV PATH="$JAVA_HOME/bin:$PATH"
+
+COPY --from=builder /opt/java /opt/java
+COPY --from=builder /opt/tomcat /opt/tomcat
+COPY --from=builder /tmp/glibc-2.32-r0.apk /tmp/glibc-2.32-r0.apk
+
+RUN touch repo.list && \
+    apk add --repositories-file=repo.list --allow-untrusted --no-network --no-cache /tmp/glibc-2.32-r0.apk && \
+    rm /tmp/glibc-2.32-r0.apk 
+# RUN echo $JAVA_HOME && \
+#     echo $PATH
+# ADD tomcat /etc/init.d/tomcat
+# RUN ls -la /opt/tomcat && \
+#     chmod +x /etc/init.d/tomcat && \
+#     apk add openrc && \
+#     rc-update add tomcat default && \
+#     rc-service tomcat start && \
+#     rc-service tomcat stop
+CMD ["/opt/tomcat/bin/catalina.sh", "run"]
+
