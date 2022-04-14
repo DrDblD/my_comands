@@ -51,6 +51,8 @@ java -jar jenkins-cli.jar -s https://jenkins_URL -auth user:tocken help
 https://github.com/cloudbees/jenkins-scripts
 https://github.com/samrocketman/jenkins-script-console-scripts
 
+find $(pwd -P) -name foldr -exec mv {} /tmp \;
+
 # install some packages from dir
 find $(pwd)/Загрузки/cades-linux-amd64/ -name *.rpm | xargs sudo rpm -ivh
 find $(pwd)/Загрузки/cades-linux-amd64/ -name *.rpm | xargs sudo yum install
@@ -61,3 +63,5 @@ docker build -t test-test . >> log.build
 docker run --name container_ssh -i -t test-test
 docker rm container_ssh
 docker ps --all | grep /bin | awk '{print $1}' | xargs docker rm
+docker images --all
+docker images --all | grep none | awk '{print $3}' | xargs docker rmi
