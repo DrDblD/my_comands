@@ -1,0 +1,62 @@
+---
+
+- hosts: localhost  # Place where we are running Ansible
+  connection: local # Connection 
+  tasks:
+
+  - name: detect image
+    shell: 
+      cmd: find $(pwd) -name image.tar.gz
+    register: archived_image_path
+
+  - name: Load image from archive to local repository
+    docker_image:
+      name: '{{CI_PROJECT_NAME}}'
+      tag: '{{CI_COMMIT_TAG}}'
+      docker_host: '{{DOCKER_HOST}}'
+      load_path: '{{CI_PROJECT_DIR}}/image.tar.gz'
+      pull: no
+      source: 'load'
+    failed_when: 
+      - archived_image_path.rc != 0
+      - not archived_image_path.stdout | search 'image.tar.gz'
+
+  - name: Inspect an image
+    docker_image_info:
+      docker_host: '{{DOCKER_HOST}}'
+      name: '{{CI_PROJECT_NAME}}:{{CI_COMMIT_TAG}}'
+    register: images
+
+  - name: Create a container for tests
+    docker_container:
+      docker_host: '{{DOCKER_HOST}}'
+      name: test
+      image: '{{CI_PROJECT_NAME}}:{{CI_PROJECT_NAME}}'
+      hostname: localhost
+      state: present
+      detach: yes
+      auto_remove: yes
+      ports:
+        - 8080:8080
+    failed_when:
+      - not images.stdout | search '{{CI_PROJECT_NAME}}'
+
+  - name: Test container
+    shell: 
+      cmd: curl -sL -w "%{http_code}\\n" "http://localhost:8080/" -o /dev/null
+    register: result
+    ignore_errors: yes
+
+  - name: Stop a container
+    docker_container:
+      docker_host: '{{DOCKER_HOST}}'
+      name: test
+      state: stopped
+
+  - name: Print result failed
+    fail: msg='Test failed'
+    when: '"200" not in result.stdout'
+
+  - name: Print result succeededd
+    shell: echo 'Test succeeded'
+    when: '"200" in result.stdout'

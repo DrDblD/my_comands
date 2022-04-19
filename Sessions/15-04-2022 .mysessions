@@ -1,0 +1,1484 @@
+[
+    {
+        "title": "15/04/2022",
+        "date": "15/4/2022_10:30",
+        "urls": [],
+        "tabsCount": 367,
+        "folderId": "N3awyrQWgKAg",
+        "windows": {
+            "H8znKx_CkuRe": [
+                {
+                    "title": "Your Repositories&&pinned",
+                    "url": "https://github.com/DrDblD?tab=repositories"
+                },
+                {
+                    "title": "Telegram Web&&pinned",
+                    "url": "https://web.telegram.org/k/"
+                },
+                {
+                    "title": "Почта — ataburkin@poidem.ru&&pinned",
+                    "url": "https://mail.poidem.ru/owa/?bO=1#path=/mail"
+                },
+                {
+                    "title": "(1) Пойдём! Чаты&&pinned",
+                    "url": "https://chat.poidem.ru/group/development"
+                },
+                {
+                    "title": "ЦО, оборудование - Администрирование систем - Confluence&&pinned",
+                    "url": "https://wiki-01.poidem.ru/pages/viewpage.action?pageId=336195"
+                },
+                {
+                    "title": "[OPS-40] Реализация базового docker образа под эксплуатацию приложений - Разработка&&pinned",
+                    "url": "https://jira.poidem.ru/browse/OPS-40"
+                },
+                {
+                    "title": "CI/CD Settings · CI/CD · Settings · ops / tomcat-base · GitLab&&pinned",
+                    "url": "https://gitlab.poidem.ru/ops/tomcat-base/-/settings/ci_cd#js-runners-settings"
+                },
+                {
+                    "title": "TEST-TOMCAT [Jenkins]&&pinned",
+                    "url": "https://jenkins.poidem.ru/"
+                },
+                {
+                    "title": "TEST-TOMCAT [Jenkins]&&pinned",
+                    "url": "https://jenkins.poidem.ru/"
+                },
+                {
+                    "title": "Index · Runners · Ci · Help · GitLab",
+                    "url": "https://gitlab.poidem.ru/help/ci/runners/index"
+                },
+                {
+                    "title": "[TEST-38] Тестирование СБП - Разработка",
+                    "url": "https://jira.poidem.ru/browse/TEST-38?filter=16364"
+                },
+                {
+                    "title": "Files · develop · ops / tomcat-base · GitLab",
+                    "url": "https://gitlab.poidem.ru/ops/tomcat-base/-/tree/develop"
+                },
+                {
+                    "title": "Lint · Ci · Help · GitLab",
+                    "url": "https://gitlab.poidem.ru/help/ci/lint#validate-basic-logic-and-syntax"
+                },
+                {
+                    "title": "docker-images/Dockerfile at main · oracle/docker-images",
+                    "url": "https://github.com/oracle/docker-images/blob/main/OracleJava/8/Dockerfile"
+                },
+                {
+                    "title": "Java Management Extensions - Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Java_Management_Extensions"
+                },
+                {
+                    "title": "ops · GitLab",
+                    "url": "https://gitlab.poidem.ru/ops"
+                },
+                {
+                    "title": "supervisord - Google Search",
+                    "url": "https://www.google.com/search?q=supervisord"
+                },
+                {
+                    "title": "Supervisor: A Process Control System — Supervisor 4.2.4 documentation",
+                    "url": "http://supervisord.org/"
+                },
+                {
+                    "title": "Home - Poidem Information Systems - Confluence",
+                    "url": "https://wiki-01.poidem.ru/display/PISD/Home"
+                },
+                {
+                    "title": "Commits · COLLECTION-818 · webapps / bo · GitLab",
+                    "url": "https://gitlab.poidem.ru/webapps/bo/-/commits/COLLECTION-818"
+                },
+                {
+                    "title": "NSX NCP - Google Search",
+                    "url": "https://www.google.com/search?q=NSX+NCP"
+                },
+                {
+                    "title": "Configuring NSX-T Resources",
+                    "url": "https://docs.vmware.com/en/VMware-NSX-T-Data-Center/2.4/com.vmware.nsxt.ncp_kubernetes.doc/GUID-49D7630F-AEB1-4443-BDE0-8788E4415647.html"
+                },
+                {
+                    "title": "ManageEngine ServiceDesk Plus",
+                    "url": "https://sd.poidem.ru/WorkOrder.do?woMode=viewWO&woID=678762"
+                },
+                {
+                    "title": "Учебный портал WebSoft",
+                    "url": "https://uc.poidem.ru/view_doc.html?mode=doc_type&custom_web_template_id=6729775109184568772&doc_id=6729774249868408343"
+                },
+                {
+                    "title": "Неофициальный FAQ по Fedora — Неофициальный FAQ по Fedora (версия 2022.02.14)",
+                    "url": "https://russianfedora.github.io/FAQ/"
+                },
+                {
+                    "title": "Projects · Dashboard · GitLab",
+                    "url": "https://gitlab.poidem.ru/dashboard/projects?non_archived=true&page=5&sort=latest_activity_desc"
+                },
+                {
+                    "title": "jenkins/build.groovy · master · webapps / poidem-java-parent · GitLab",
+                    "url": "https://gitlab.poidem.ru/webapps/poidem-java-parent/-/blob/master/jenkins/build.groovy"
+                },
+                {
+                    "title": "vars · master · env / poidem-jenkins-lib · GitLab",
+                    "url": "https://gitlab.poidem.ru/env/poidem-jenkins-lib/-/tree/master/vars"
+                },
+                {
+                    "title": "vars/poidemShUnstable.groovy · master · env / poidem-jenkins-lib · GitLab",
+                    "url": "https://gitlab.poidem.ru/env/poidem-jenkins-lib/-/blob/master/vars/poidemShUnstable.groovy"
+                },
+                {
+                    "title": "vars/poidemMavenLocalRepo.groovy · master · env / poidem-jenkins-lib · GitLab",
+                    "url": "https://gitlab.poidem.ru/env/poidem-jenkins-lib/-/blob/master/vars/poidemMavenLocalRepo.groovy"
+                },
+                {
+                    "title": "GitLab Plugin",
+                    "url": "https://www.jenkins.io/doc/pipeline/steps/gitlab-plugin/"
+                },
+                {
+                    "title": "env / panda-test · GitLab",
+                    "url": "https://gitlab.poidem.ru/env/panda-test"
+                },
+                {
+                    "title": "ws / abbyy-client-ws-api · GitLab",
+                    "url": "https://gitlab.poidem.ru/ws/abbyy-client-ws-api/-/tree/master/"
+                },
+                {
+                    "title": "Vim Cheat Sheet for Programmers - 65d28529-c164-4320-93a8-7c70f92d1cef",
+                    "url": "blob:https://web.telegram.org/65d28529-c164-4320-93a8-7c70f92d1cef"
+                },
+                {
+                    "title": "Microsoft Word - Linux_cheat_ sheet_level3.docx - 5b3c4abb-4ad8-4968-aacb-ec3c796481d0",
+                    "url": "blob:https://web.telegram.org/5b3c4abb-4ad8-4968-aacb-ec3c796481d0"
+                },
+                {
+                    "title": "Учебный портал WebSoft",
+                    "url": "https://uc.poidem.ru/view_doc.html?mode=learning_stat&doc_id=&object_id=7084147701335663908"
+                },
+                {
+                    "title": "GNU screen terminal commands cheat sheet - 224fd760-6670-4980-ab2c-38eb39ecc863",
+                    "url": "blob:https://web.telegram.org/224fd760-6670-4980-ab2c-38eb39ecc863"
+                },
+                {
+                    "title": "4974b217-3cd2-4b3a-92a8-cbf0a7ac726e",
+                    "url": "blob:https://web.telegram.org/4974b217-3cd2-4b3a-92a8-cbf0a7ac726e"
+                },
+                {
+                    "title": "Vim Cheat Sheet for Programmers - 65d28529-c164-4320-93a8-7c70f92d1cef",
+                    "url": "blob:https://web.telegram.org/65d28529-c164-4320-93a8-7c70f92d1cef"
+                },
+                {
+                    "title": "Docsvision 5 Web-клиент",
+                    "url": "https://docs.poidem.ru/DocsvisionWebClient/#/CardView/{7c35dbd4-1c5e-4173-81d8-8c7eed2c058a}"
+                },
+                {
+                    "title": "Учебный портал WebSoft",
+                    "url": "https://uc.poidem.ru/learning_stat?doc_id=&object_id=7084147701335663908"
+                },
+                {
+                    "title": "How To Use Linux Screen | Linuxize",
+                    "url": "https://linuxize.com/post/how-to-use-linux-screen/"
+                },
+                {
+                    "title": ".screenrc higliting - Поиск в Google",
+                    "url": "https://www.google.com/search?q=.screenrc+higliting&ei=rrZOYrmdK8qprgSD9ZGgAw&ved=0ahUKEwi5rI2Y2YH3AhXKlIsKHYN6BDQQ4dUDCA0&oq=.screenrc+higliting&gs_lcp=Cgdnd3Mtd2l6EAwyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsANKBAhBGABKBQhAEgExSgQIRhgAUABYAGDjJmgBcAF4AIABAIgBAJIBAJgBAMgBCMABAQ&sclient=gws-wiz"
+                },
+                {
+                    "title": "Screen User’s Manual",
+                    "url": "https://www.gnu.org/software/screen/manual/screen.html#Overview"
+                },
+                {
+                    "title": "Canon i-SENSYS MF4580dn \"lpadmin\" - Поиск в Google",
+                    "url": "https://www.google.com/search?q=Canon+i-SENSYS+MF4580dn+%22lpadmin%22&sa=X&ved=2ahUKEwis6NXe2YP3AhUNyYsKHezLBL8Q5t4CegQIDBAB&biw=1920&bih=922&dpr=1"
+                },
+                {
+                    "title": "find execute yum - Google Search",
+                    "url": "https://www.google.com/search?q=find+execute+yum&newwindow=1&sxsrf=APq-WBs4Z0K3ZQ8tx4p9dYwP6i_4eMIcJg%3A1649654513113&ei=8bpTYqLOBo_frgT36J3gBA&ved=0ahUKEwjiiob6oYv3AhWPr4sKHXd0B0wQ4dUDCA0&uact=5&oq=find+execute+yum&gs_lcp=Cgdnd3Mtd2l6EAMyBQghEKABOgcIABBHELADOgUIABCRAjoFCAAQgAQ6BQgAEMsBOgYIABAWEB46BAgAEA06CAgAEIAEEMkDSgQIQRgASgQIRhgAUKYEWIkuYMgvaARwAXgAgAHSAYgB0AqSAQYxMS4yLjGYAQCgAQHIAQjAAQE&sclient=gws-wiz"
+                },
+                {
+                    "title": "Yum, шпаргалка / Хабр",
+                    "url": "https://habr.com/ru/post/301292/"
+                },
+                {
+                    "title": "rh_yum_cheatsheet_1214_jcs_print-1.pdf",
+                    "url": "https://access.redhat.com/sites/default/files/attachments/rh_yum_cheatsheet_1214_jcs_print-1.pdf"
+                },
+                {
+                    "title": "find: отсутствует аргумент у «-exec» - Google Search",
+                    "url": "https://www.google.com/search?q=find%3A+%D0%BE%D1%82%D1%81%D1%83%D1%82%D1%81%D1%82%D0%B2%D1%83%D0%B5%D1%82+%D0%B0%D1%80%D0%B3%D1%83%D0%BC%D0%B5%D0%BD%D1%82+%D1%83+%C2%AB-exec%C2%BB"
+                },
+                {
+                    "title": "forum.opennet.ru - \"Ошибка: find: отсутствует аргумент у `-exec'\" (6)",
+                    "url": "https://www.opennet.ru/openforum/vsluhforumID9/10066.html"
+                },
+                {
+                    "title": "set ssh key for server - Google Search",
+                    "url": "https://www.google.com/search?q=set+ssh+key+for+server"
+                },
+                {
+                    "title": "The Ultimate Guide to SSH - Setting Up SSH Keys",
+                    "url": "https://www.freecodecamp.org/news/the-ultimate-guide-to-ssh-setting-up-ssh-keys/"
+                },
+                {
+                    "title": "git extensions fedora - Google Search",
+                    "url": "https://www.google.com/search?q=git+extensions+fedora"
+                },
+                {
+                    "title": "Git Extensions Alternatives: 25+ Similar Version Control Systems for Linux | AlternativeTo",
+                    "url": "https://alternativeto.net/software/gitextensions/?platform=linux"
+                },
+                {
+                    "title": "How To: run Git Extensions on Linux · gitextensions/gitextensions Wiki",
+                    "url": "https://github.com/gitextensions/gitextensions/wiki/How-To:-run-Git-Extensions-on-Linux"
+                },
+                {
+                    "title": "Release Version 2.51.05 · gitextensions/gitextensions",
+                    "url": "https://github.com/gitextensions/gitextensions/releases/tag/v2.51.05"
+                },
+                {
+                    "title": "Script Console",
+                    "url": "https://www.jenkins.io/doc/book/managing/script-console/"
+                },
+                {
+                    "title": "Managing Nodes",
+                    "url": "https://www.jenkins.io/doc/book/managing/nodes/"
+                },
+                {
+                    "title": "centos package install - Google Search",
+                    "url": "https://www.google.com/search?q=centos+package+install"
+                },
+                {
+                    "title": "How to Install RPM Packages on CentOS | Linuxize",
+                    "url": "https://linuxize.com/post/how-to-install-rpm-packages-on-centos/"
+                },
+                {
+                    "title": "rpm install from pipeline input - Google Search",
+                    "url": "https://www.google.com/search?q=rpm+install+from+pipeline+input&newwindow=1&sxsrf=APq-WBsSSKuUbbHto_aHVCy1c6kdxASjmg%3A1649764385601&ei=IWhVYsqkJIifrwTY44K4DA&ved=0ahUKEwiKuaqhu473AhWIz4sKHdixAMcQ4dUDCA0&uact=5&oq=rpm+install+from+pipeline+input&gs_lcp=Cgdnd3Mtd2l6EAM6BAgjECdKBAhBGAFKBAhGGABQ1QVY6Tlg7zpoAXAAeACAAXOIAeQMkgEEMTEuNpgBAKABAcABAQ&sclient=gws-wiz"
+                },
+                {
+                    "title": "pipe - How to download an RPM package and install it in one line? - Unix & Linux Stack Exchange",
+                    "url": "https://unix.stackexchange.com/questions/245920/how-to-download-an-rpm-package-and-install-it-in-one-line"
+                },
+                {
+                    "title": "linux - Passing user defined argument to RPM is possible while installing? - Stack Overflow",
+                    "url": "https://stackoverflow.com/questions/11204964/passing-user-defined-argument-to-rpm-is-possible-while-installing"
+                },
+                {
+                    "title": "ls full path - Google Search",
+                    "url": "https://www.google.com/search?q=ls+full+path&newwindow=1&sxsrf=APq-WBtPUcdhGYYGriPHKm4ZqWWQLlm6oQ%3A1649764482398&ei=gmhVYrbUF-KyrgSugbjgAw&oq=ls+full&gs_lcp=Cgdnd3Mtd2l6EAMYADIFCAAQkQIyBQgAEMsBMgUIABDLATIFCAAQywEyBQgAEIAEMgUIABDLATIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BwgAEEcQsAM6BwgAELADEEM6BAgjECc6CwguEIAEEMcBEKMCOgQIABBDSgQIQRgASgQIRhgAUMEUWMovYJE_aAJwAXgAgAHtAYgB8weSAQUxLjYuMZgBAKABAcgBCsABAQ&sclient=gws-wiz"
+                },
+                {
+                    "title": "command line - How can I generate a list of files with their absolute path in Linux? - Stack Overflow",
+                    "url": "https://stackoverflow.com/questions/246215/how-can-i-generate-a-list-of-files-with-their-absolute-path-in-linux"
+                },
+                {
+                    "title": "Xargs: многообразие приёмов использования - Блог компании Селектел",
+                    "url": "https://selectel.ru/blog/xargs-mnogoobrazie-priyomov-ispolzovaniya/"
+                },
+                {
+                    "title": "rpm get dependencies - Google Search",
+                    "url": "https://www.google.com/search?q=rpm+get+dependencies"
+                },
+                {
+                    "title": "linux - Check RPM dependencies - Stack Overflow",
+                    "url": "https://stackoverflow.com/questions/19077538/check-rpm-dependencies"
+                },
+                {
+                    "title": "write string to file if it not exist bash - Google Search",
+                    "url": "https://www.google.com/search?q=write+string+to+file+if+it+not+exist+bash&newwindow=1&sxsrf=APq-WBsYbhQXAzUwRs_w-Qgq3YKb01lypA%3A1649765024043&ei=oGpVYp2kAuWFrwTz0q7YDA&ved=0ahUKEwid9OHRvY73AhXlwosKHXOpC8sQ4dUDCA0&oq=write+string+to+file+if+it+not+exist+bash&gs_lcp=Cgdnd3Mtd2l6EAw6BwgAEEcQsAM6BAgjECc6BAghEApKBAhBGABKBAhGGABQowZY4TVgt0FoAXABeACAAZEBiAG3CZIBAzkuM5gBAKABAcgBCMABAQ&sclient=gws-wiz"
+                },
+                {
+                    "title": "linux - Appending a line to a file only if it does not already exist - Stack Overflow",
+                    "url": "https://stackoverflow.com/questions/3557037/appending-a-line-to-a-file-only-if-it-does-not-already-exist"
+                },
+                {
+                    "title": "Новая вкладка",
+                    "url": "about:newtab"
+                },
+                {
+                    "title": "open() python - Google Search",
+                    "url": "https://www.google.com/search?q=open%28%29+python&newwindow=1&sxsrf=APq-WBvfXvM_sQEOBYsR11gwfz4LgFPWyg%3A1649765563314&ei=u2xVYpHnEo6yrgTqyITwBw&oq=open%28%29+python&gs_lcp=Cgdnd3Mtd2l6EAEYADIFCAAQkQIyBggAEAcQHjIGCAAQBxAeMgYIABAHEB4yBggAEAcQHjIICAAQBxAKEB4yBggAEAcQHjIGCAAQBxAeMgYIABAHEB4yBggAEAcQHkoECEEYAEoECEYYAFAAWJUDYLcKaABwAXgAgAH5AYgBiwOSAQUwLjEuMZgBAKABAqABAcABAQ&sclient=gws-wiz"
+                },
+                {
+                    "title": "Built-in Functions — Python 3.10.4 documentation",
+                    "url": "https://docs.python.org/3/library/functions.html#open"
+                },
+                {
+                    "title": "wrapper with params python - Google Search",
+                    "url": "https://www.google.com/search?q=wrapper+with+params+python&newwindow=1&sxsrf=APq-WBtcf04TFAmWkA2V68kmeRpVi9_iyw%3A1649765786986&ei=mm1VYqfqO5eTwPAPkOsM&ved=0ahUKEwinn8i9wI73AhWXCRAIHZA1AwAQ4dUDCA0&uact=5&oq=wrapper+with+params+python&gs_lcp=Cgdnd3Mtd2l6EAM6BwgAEEcQsAM6BwgAELADEEM6BAgjECc6BQgAEMsBOgYIABAHEB46CAgAEAgQBxAeOgYIABAIEB5KBAhBGABKBAhGGABQ5gRYxRtg1hxoAXABeACAAWyIAe8IkgEEMTAuMpgBAKABAcgBCsABAQ&sclient=gws-wiz"
+                },
+                {
+                    "title": "python - Making decorators with optional arguments - Stack Overflow",
+                    "url": "https://stackoverflow.com/questions/3888158/making-decorators-with-optional-arguments"
+                },
+                {
+                    "title": "vmware - Google Search",
+                    "url": "https://www.google.com/search?q=vmware"
+                },
+                {
+                    "title": "VMware Workstation Player | VMware",
+                    "url": "https://www.vmware.com/products/workstation-player.html"
+                },
+                {
+                    "title": "VMware Workstation Player - VMware Customer Connect",
+                    "url": "https://customerconnect.vmware.com/en/downloads/details?downloadGroup=WKST-PLAYER-1623-NEW&productId=1039&rPId=85399"
+                },
+                {
+                    "title": "VMware Workstation Player | VMware",
+                    "url": "https://www.vmware.com/products/workstation-player.html"
+                },
+                {
+                    "title": "vmware player fedora - Google Search",
+                    "url": "https://www.google.com/search?q=vmware+player+%D0%B0%D1%83%D0%B2%D1%89%D0%BA%D1%84"
+                },
+                {
+                    "title": "How to install VMware Workstation Player on Fedora | FOSS Linux",
+                    "url": "https://www.fosslinux.com/38394/how-to-install-vmware-workstation-player-on-fedora.htm"
+                },
+                {
+                    "title": "stopped jobs fedora 36 - Google Search",
+                    "url": "https://www.google.com/search?q=stopped+jobs+fedora+36&newwindow=1&sxsrf=APq-WBswgBvzkob7CPnL0MrYZ5rWvBWi3g%3A1649767563949&ei=i3RVYvXMOcHHrgTTtJOwBA&ved=0ahUKEwi1vvGMx473AhXBo4sKHVPaBEYQ4dUDCA0&uact=5&oq=stopped+jobs+fedora+36&gs_lcp=Cgdnd3Mtd2l6EAM6BwgAEEcQsAM6CAgAEAgQBxAeSgQIQRgASgQIRhgAULYUWMotYIwuaAJwAXgAgAGHAYgBtwiSAQM5LjKYAQCgAQHIAQjAAQE&sclient=gws-wiz"
+                },
+                {
+                    "title": "linux - How can I kill all stopped jobs? - Server Fault",
+                    "url": "https://serverfault.com/questions/240155/how-can-i-kill-all-stopped-jobs"
+                },
+                {
+                    "title": "init.d fedora 36 - Google Search",
+                    "url": "https://www.google.com/search?q=init.d+fedora+36&newwindow=1&sxsrf=APq-WBsb_z5koUdrlQTMt38UJaQz58rVsQ%3A1649767744517&ei=QHVVYvKYH6WrrgTFzbmwDg&ved=0ahUKEwjyuP7ix473AhWllYsKHcVmDuYQ4dUDCA0&uact=5&oq=init.d+fedora+36&gs_lcp=Cgdnd3Mtd2l6EAM6BwgjELADECc6BwgAEEcQsAM6CAgAEAgQBxAeSgQIQRgASgQIRhgAULEGWLgVYJwWaAFwAXgAgAFviAHuA5IBAzMuMpgBAKABAcgBCcABAQ&sclient=gws-wiz"
+                },
+                {
+                    "title": "Understanding and administering systemd :: Fedora Docs",
+                    "url": "https://docs.fedoraproject.org/en-US/quick-docs/understanding-and-administering-systemd/"
+                },
+                {
+                    "title": "get firct column from grep - Google Search",
+                    "url": "https://www.google.com/search?q=get+firct+column+from+grep"
+                },
+                {
+                    "title": "get first column from grep - Google Search",
+                    "url": "https://www.google.com/search?newwindow=1&sxsrf=APq-WBtUKgZ12EAgx2sxoS6XzyebxzMD4Q:1649768226696&q=get+first+column+from+grep&spell=1&sa=X&ved=2ahUKEwiprPTIyY73AhXEl4sKHfYLBOwQkeECKAB6BAgBEDI"
+                },
+                {
+                    "title": "How to Print the First Column or Last Column or Both Using `awk`",
+                    "url": "https://linuxhint.com/print_columns_awk/"
+                },
+                {
+                    "title": "rc.d).: vmware fedora - Google Search",
+                    "url": "https://www.google.com/search?q=rc.d%29.%3A+vmware+fedora&newwindow=1&sxsrf=APq-WBshAMl1MaoYgjzCTWiYHg1fn00XfQ%3A1649768999982&ei=J3pVYu_EO7CJrwSwubbgBA&ved=0ahUKEwiv9NG5zI73AhWwxIsKHbCcDUwQ4dUDCA0&uact=5&oq=rc.d%29.%3A+vmware+fedora&gs_lcp=Cgdnd3Mtd2l6EAM6BwgAEEcQsANKBAhBGABKBAhGGABQ8BZY4ytg5y9oAnABeACAAWmIAe0DkgEDMy4ymAEAoAEByAEIwAEB&sclient=gws-wiz"
+                },
+                {
+                    "title": "Solved: Workstation 12.5.2 Fails to Start on Fedora 25 (Ke... - VMware Technology Network VMTN",
+                    "url": "https://communities.vmware.com/t5/VMware-Workstation-Pro/Workstation-12-5-2-Fails-to-Start-on-Fedora-25-Kernel-4-9-5/td-p/1370597"
+                },
+                {
+                    "title": "[Solved]Where is the \"system service scripts directory\" in Arch Linux? / Newbie Corner / Arch Linux Forums",
+                    "url": "https://bbs.archlinux.org/viewtopic.php?id=231132"
+                },
+                {
+                    "title": "Установка VMware-player.",
+                    "url": "https://archlinux.org.ru/forum/topic/4690/?page=2#post-46461"
+                },
+                {
+                    "title": "vmmon-only/./include/vm_basic_defs.h - Google Search",
+                    "url": "https://www.google.com/search?q=vmmon-only%2F.%2Finclude%2Fvm_basic_defs.h"
+                },
+                {
+                    "title": "Vmware workstation on Kernel 5.16.0 1(Debian Testing) - RedTm",
+                    "url": "https://redtm.com/blog/vmware-workstation-on-kernel-5.16.0-1debian-testing/"
+                },
+                {
+                    "title": "install local registry - Google Search",
+                    "url": "https://www.google.com/search?q=install+local+registry"
+                },
+                {
+                    "title": "Deploy a registry server | Docker Documentation",
+                    "url": "https://docs.docker.com/registry/deploying/"
+                },
+                {
+                    "title": "Troubleshooting · microsoft/vscode-docker Wiki",
+                    "url": "https://github.com/microsoft/vscode-docker/wiki/Troubleshooting"
+                },
+                {
+                    "title": "Troubleshooting · microsoft/vscode-docker Wiki",
+                    "url": "https://github.com/microsoft/vscode-docker/wiki/Troubleshooting"
+                },
+                {
+                    "title": "dial unix /var/run/docker.sock: connect: permission denied - Google Search",
+                    "url": "https://www.google.com/search?q=dial+unix+%2Fvar%2Frun%2Fdocker.sock%3A+connect%3A+permission+denied"
+                },
+                {
+                    "title": "ubuntu 18.04 - How to fix \"dial unix /var/run/docker.sock: connect: permission denied\" when group permissions seem correct? - Stack Overflow",
+                    "url": "https://stackoverflow.com/questions/51342810/how-to-fix-dial-unix-var-run-docker-sock-connect-permission-denied-when-gro"
+                },
+                {
+                    "title": "docker create own container - Google Search",
+                    "url": "https://www.google.com/search?q=docker+create+own+conteiner"
+                },
+                {
+                    "title": "Create a base image | Docker Documentation",
+                    "url": "https://docs.docker.com/develop/develop-images/baseimages/"
+                },
+                {
+                    "title": "How to Create a Docker Image From a Container | Scalyr",
+                    "url": "https://www.sentinelone.com/blog/create-docker-image/"
+                },
+                {
+                    "title": "Контейнеризация понятным языком: хранение данных и безопасность в Kubernetes, зачем нужен Ansible / Хабр",
+                    "url": "https://habr.com/ru/company/southbridge/blog/531704/"
+                },
+                {
+                    "title": "Telegram: Contact @kubernetes_ru",
+                    "url": "https://t.me/kubernetes_ru"
+                },
+                {
+                    "title": "Docker и все, все, все / Хабр",
+                    "url": "https://habr.com/ru/company/southbridge/blog/512246/"
+                },
+                {
+                    "title": "build image from scratch docker - Google Search",
+                    "url": "https://www.google.com/search?q=build+image+from+scratch+docker"
+                },
+                {
+                    "title": "Docker: FROM scratch. How to build a minimalistic hello-world… | by Changhui Xu | codeburst",
+                    "url": "https://codeburst.io/docker-from-scratch-2a84552470c8"
+                },
+                {
+                    "title": "Search · from Scratch DOCKER",
+                    "url": "https://github.com/search?p=3&q=from+Scratch+DOCKER&type=Repositories"
+                },
+                {
+                    "title": "EvilFreelancer/docker-lfs-build: Linux From Scratch build environment",
+                    "url": "https://github.com/EvilFreelancer/docker-lfs-build"
+                },
+                {
+                    "title": "Rancher",
+                    "url": "https://github.com/rancher"
+                },
+                {
+                    "title": "Home · aaronpowell/docker-from-scratch Wiki",
+                    "url": "https://github.com/aaronpowell/docker-from-scratch/wiki"
+                },
+                {
+                    "title": "weliveindetail/JitFromScratch: Example project from my talks in the LLVM Social Berlin and C++ User Group",
+                    "url": "https://github.com/weliveindetail/JitFromScratch"
+                },
+                {
+                    "title": "technomada/cloud-from-scratch: Build yourself a private self-hosted full-stack personal cloud system.",
+                    "url": "https://github.com/technomada/cloud-from-scratch"
+                },
+                {
+                    "title": "shortishly/erlang-in-docker-from-scratch: An Erlang application release in a Docker container from scratch",
+                    "url": "https://github.com/shortishly/erlang-in-docker-from-scratch"
+                },
+                {
+                    "title": "alpine-docker-from-scratch/build.sh at main · skwashd/alpine-docker-from-scratch",
+                    "url": "https://github.com/skwashd/alpine-docker-from-scratch/blob/main/build.sh"
+                },
+                {
+                    "title": "RuslanPasichniuk/Java-testNG-Docker-Grid: Here was implemented a Data Driven - Test Automation Framework from scratch Using Java/testNG/Selenium/Grid/Docker/Jenkins",
+                    "url": "https://github.com/RuslanPasichniuk/Java-testNG-Docker-Grid"
+                },
+                {
+                    "title": "Новая вкладка",
+                    "url": "about:newtab"
+                },
+                {
+                    "title": "Новая вкладка",
+                    "url": "about:newtab"
+                },
+                {
+                    "title": "build slim image from scratch docker - Google Search",
+                    "url": "https://www.google.com/search?q=build+slim+image+from+scratch+docker&newwindow=1&sxsrf=APq-WBt-WR3yQt2-Xo1mV40LEoS2C_t6Cg%3A1649826862540&ei=LlxWYq_RINGHwPAP5fq4iAY&oq=buil%D0%92+%D0%AB%D0%94%D0%A8%D0%AC+%D0%A8%D0%AC%D0%A4%D0%9F%D0%A3+%D0%90%D0%9A%D0%A9%D0%AC+&gs_lcp=Cgdnd3Mtd2l6EAMYBzIICCEQFhAdEB4yCAghEBYQHRAeMggIIRAWEB0QHjIICCEQFhAdEB4yCAghEBYQHRAeMggIIRAWEB0QHjIICCEQFhAdEB4yCAghEBYQHRAeMggIIRAWEB0QHjIICCEQFhAdEB46BwgAEEcQsAM6CggAEBYQChAeECo6BggAEBYQHjoHCCMQsAIQJzoECAAQDToECCMQJzoFCAAQywE6CggAEIAEEIcCEBQ6BQguEMsBOgoILhDHARCjAhBDOgQIABBDOgQILhBDOgUIABCABDoJCCEQChCgARAqOggIABAWEAoQHjoICAAQCBANEB5KBAhBGABKBAhGGABQmgZYgUBgrnNoA3ABeACAAYwDiAGaF5IBCDUuMTcuMS4xmAEAoAEByAEIwAEB&sclient=gws-wiz"
+                },
+                {
+                    "title": "3 simple tricks for smaller Docker images",
+                    "url": "https://learnk8s.io/blog/smaller-docker-images"
+                },
+                {
+                    "title": "GoogleContainerTools/distroless: 🥑 Language focused docker images, minus the operating system.",
+                    "url": "https://github.com/GoogleContainerTools/distroless"
+                },
+                {
+                    "title": "Scratch - Official Image | Docker Hub",
+                    "url": "https://hub.docker.com/_/scratch"
+                },
+                {
+                    "title": "Read Top 5 Ways To Slim Docker Images | Codacy Blog",
+                    "url": "https://blog.codacy.com/five-ways-to-slim-your-docker-images/"
+                },
+                {
+                    "title": "How to Build Slim Docker Images Fast | by Simon Hawe | Towards Data Science",
+                    "url": "https://towardsdatascience.com/how-to-build-slim-docker-images-fast-ecc246d7f4a7"
+                },
+                {
+                    "title": "Containers | Kubernetes",
+                    "url": "https://kubernetes.io/docs/concepts/containers/"
+                },
+                {
+                    "title": "kubectl for Docker Users | Kubernetes",
+                    "url": "https://kubernetes.io/docs/reference/kubectl/docker-cli-to-kubectl/"
+                },
+                {
+                    "title": "Explore Docker's Container Image Repository | Docker Hub",
+                    "url": "https://hub.docker.com/search?image_filter=official&q=&page=1"
+                },
+                {
+                    "title": "Alpine - Official Image | Docker Hub",
+                    "url": "https://hub.docker.com/_/alpine"
+                },
+                {
+                    "title": "Issues · alpinelinux/docker-alpine",
+                    "url": "https://github.com/alpinelinux/docker-alpine/issues"
+                },
+                {
+                    "title": "Explore Docker's Container Image Repository | Docker Hub",
+                    "url": "https://hub.docker.com/search?image_filter=official&q=&page=2"
+                },
+                {
+                    "title": "Tomcat - Official Image | Docker Hub",
+                    "url": "https://hub.docker.com/_/tomcat"
+                },
+                {
+                    "title": "docs/tomcat at master · docker-library/docs",
+                    "url": "https://github.com/docker-library/docs/tree/master/tomcat"
+                },
+                {
+                    "title": "Issues · docker-library/tomcat",
+                    "url": "https://github.com/docker-library/tomcat/issues"
+                },
+                {
+                    "title": "Working with OpenRC - Alpine Linux Documentation",
+                    "url": "https://docs.alpinelinux.org/user-handbook/0.1a/Working/openrc.html#_configuring_services"
+                },
+                {
+                    "title": "Category talk:Developer Documentation - Alpine Linux",
+                    "url": "https://wiki.alpinelinux.org/wiki/Category_talk:Developer_Documentation"
+                },
+                {
+                    "title": "Package management - Alpine Linux",
+                    "url": "https://wiki.alpinelinux.org/wiki/Package_management"
+                },
+                {
+                    "title": "OpenRC - Alpine Linux",
+                    "url": "https://wiki.alpinelinux.org/wiki/OpenRC"
+                },
+                {
+                    "title": "Alpine Linux:FAQ - Alpine Linux",
+                    "url": "https://wiki.alpinelinux.org/wiki/Alpine_Linux:FAQ"
+                },
+                {
+                    "title": "Tutorials and Howtos - Alpine Linux",
+                    "url": "https://wiki.alpinelinux.org/wiki/Tutorials_and_Howtos"
+                },
+                {
+                    "title": "Alpine Linux packages",
+                    "url": "https://pkgs.alpinelinux.org/packages?name=tomkat&branch=edge"
+                },
+                {
+                    "title": "wget dockerfile - Google Search",
+                    "url": "https://www.google.com/search?q=wget+%D0%B2%D1%89%D1%81%D0%BB%D1%83%D0%BA%D0%B0%D1%88%D0%B4%D1%83&newwindow=1&sxsrf=APq-WBtoxgdz9ffqinUIYM4-BG3MXjCo9A%3A1649828167777&ei=R2FWYp-PL-ylrgSDyo2IAQ&ved=0ahUKEwjfzoXvqJD3AhXskosKHQNlAxEQ4dUDCA0&uact=5&oq=wget+%D0%B2%D1%89%D1%81%D0%BB%D1%83%D0%BA%D0%B0%D1%88%D0%B4%D1%83&gs_lcp=Cgdnd3Mtd2l6EAMyBAgAEA0yBggAEA0QHjIICAAQDRAFEB4yCAgAEA0QBRAeMggIABAIEA0QHjIICAAQCBANEB4yCAgAEAgQDRAeMggIABAIEA0QHjIICAAQCBANEB4yCAgAEAgQDRAeOgQIABBHOgQIABBDOgUIABDLAToGCAAQFhAeOggIABAWEAoQHkoECEEYAEoECEYYAFDZAVizGGDQGWgAcAJ4AIABtQGIAYcJkgEDNy40mAEAoAEByAEIwAEB&sclient=gws-wiz"
+                },
+                {
+                    "title": "docker - Wget in Dockerfile, files disappear in container - Stack Overflow",
+                    "url": "https://stackoverflow.com/questions/43604130/wget-in-dockerfile-files-disappear-in-container"
+                },
+                {
+                    "title": "Dockerfile to download a file using wget to current directory and copy the downloaded file to another directory - General Discussions - Docker Community Forums",
+                    "url": "https://forums.docker.com/t/dockerfile-to-download-a-file-using-wget-to-current-directory-and-copy-the-downloaded-file-to-another-directory/44887"
+                },
+                {
+                    "title": "oracle java - Google Search",
+                    "url": "https://www.google.com/search?q=oracle+java"
+                },
+                {
+                    "title": "Java Downloads | Oracle",
+                    "url": "https://www.oracle.com/java/technologies/downloads/#java18"
+                },
+                {
+                    "title": "Новая вкладка",
+                    "url": "about:newtab"
+                },
+                {
+                    "title": "How do you install a .tar.gz operating system (alpine)? : linuxquestions",
+                    "url": "https://www.reddit.com/r/linuxquestions/comments/eqm2cf/how_do_you_install_a_targz_operating_system_alpine/"
+                },
+                {
+                    "title": "Новая вкладка",
+                    "url": "about:newtab"
+                },
+                {
+                    "title": "apache tomcat - Google Search",
+                    "url": "https://www.google.com/search?q=apache+tomcat"
+                },
+                {
+                    "title": "Index of /dist/tomcat/tomcat-7/v7.0.109/bin",
+                    "url": "https://archive.apache.org/dist/tomcat/tomcat-7/v7.0.109/bin/"
+                },
+                {
+                    "title": "Apache Tomcat 7 (7.0.109) - Building Tomcat",
+                    "url": "https://tomcat.apache.org/tomcat-7.0-doc/building.html"
+                },
+                {
+                    "title": "Java Archive Downloads - Java SE 6",
+                    "url": "https://www.oracle.com/java/technologies/javase-java-archive-javase6-downloads.html"
+                },
+                {
+                    "title": "Java Downloads | Oracle",
+                    "url": "https://www.oracle.com/java/technologies/downloads/"
+                },
+                {
+                    "title": "Apache Ant - Binary Distributions",
+                    "url": "https://ant.apache.org/bindownload.cgi"
+                },
+                {
+                    "title": "Apache Tomcat 7 (7.0.109) - Building Tomcat",
+                    "url": "https://tomcat.apache.org/tomcat-7.0-doc/building.html#Configure_download_area"
+                },
+                {
+                    "title": "Apache Ant - Binary Distributions",
+                    "url": "https://ant.apache.org/bindownload.cgi"
+                },
+                {
+                    "title": "Apache Tomcat 8 (8.5.78) - Documentation Index",
+                    "url": "https://tomcat.apache.org/tomcat-8.5-doc/index.html"
+                },
+                {
+                    "title": "Apache Tomcat 8 (8.5.78) - Building Tomcat",
+                    "url": "https://tomcat.apache.org/tomcat-8.5-doc/building.html#Install_Apache_Ant_1.9.10_or_later"
+                },
+                {
+                    "title": "Apache Ant - Binary Distributions",
+                    "url": "https://ant.apache.org/bindownload.cgi"
+                },
+                {
+                    "title": "https://tomcat.apache.org/tomcat-8.5-doc/BUILDING.txt",
+                    "url": "https://tomcat.apache.org/tomcat-8.5-doc/BUILDING.txt"
+                },
+                {
+                    "title": "Java Archive Downloads - Java SE 7",
+                    "url": "https://www.oracle.com/java/technologies/javase/javase7-archive-downloads.html"
+                },
+                {
+                    "title": "Единый вход в систему Oracle",
+                    "url": "https://login.oracle.com/mysso/signon.jsp"
+                },
+                {
+                    "title": "Oracle | Создание учетной записи",
+                    "url": "https://profile.oracle.com/myprofile/account/create-account.jspx"
+                },
+                {
+                    "title": "alpine oracle jdk - Google Search",
+                    "url": "https://www.google.com/search?q=alpine+oracle+jdk&newwindow=1&sxsrf=APq-WBuMfmBvfARRA-SsQ4TrXsHuqvsIJw%3A1649849341832&ei=_bNWYpW4Mor-rgS1j7ugCw&oq=alpine+%2B+oracle+&gs_lcp=Cgdnd3Mtd2l6EAMYATIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeOgcIABBHELADOgoIABBHELADEMkDOggIABAWEAoQHkoECEEYAEoECEYYAFC3D1jXG2DOLmgCcAF4AIABogGIAfMFkgEDNC4zmAEAoAEByAEIwAEB&sclient=gws-wiz"
+                },
+                {
+                    "title": "Installing Oracle Java - Alpine Linux",
+                    "url": "https://wiki.alpinelinux.org/wiki/Installing_Oracle_Java"
+                },
+                {
+                    "title": "Setting Up a Software Development Environment on Alpine Linux",
+                    "url": "https://www.overops.com/blog/my-alpine-desktop-setting-up-a-software-development-environment-on-alpine-linux/"
+                },
+                {
+                    "title": "Tomcat - Alpine Linux",
+                    "url": "https://wiki.alpinelinux.org/wiki/Tomcat"
+                },
+                {
+                    "title": "Alpine Linux packages",
+                    "url": "https://pkgs.alpinelinux.org/packages?name=alternatives&branch=v3.15&arch=x86_64"
+                },
+                {
+                    "title": "How to install Java 8 on Alpine Linux? - Unix & Linux Stack Exchange",
+                    "url": "https://unix.stackexchange.com/questions/556962/how-to-install-java-8-on-alpine-linux"
+                },
+                {
+                    "title": "add path linux - Google Search",
+                    "url": "https://www.google.com/search?q=add+path+linux"
+                },
+                {
+                    "title": "How to Add a Directory to PATH in Linux | Linuxize",
+                    "url": "https://linuxize.com/post/how-to-add-directory-to-path-in-linux/"
+                },
+                {
+                    "title": "mkdir from list - Google Search",
+                    "url": "https://www.google.com/search?q=mkdir+from+list"
+                },
+                {
+                    "title": "linux - mkdir command for a list of filenames paths - Stack Overflow",
+                    "url": "https://stackoverflow.com/questions/9265607/mkdir-command-for-a-list-of-filenames-paths"
+                },
+                {
+                    "title": "if then short bash - Google Search",
+                    "url": "https://www.google.com/search?q=if+then+short+bash"
+                },
+                {
+                    "title": "if statement - What is the correct way to use the bash if else && || shortcut? - Stack Overflow",
+                    "url": "https://stackoverflow.com/questions/15538782/what-is-the-correct-way-to-use-the-bash-if-else-shortcut"
+                },
+                {
+                    "title": "Tomcat example - build.properties.default - commons, commons, license, license, tomcat, tomcat",
+                    "url": "https://alvinalexander.com/java/jwarehouse/apache-tomcat-6.0.16/build.properties.default.shtml"
+                },
+                {
+                    "title": "bash replace string in file regex - Google Search",
+                    "url": "https://www.google.com/search?q=bash+replace+string+in+file+regex&newwindow=1&sxsrf=APq-WBswCPK3qV9isXl4nMEpffEtYJGDcA%3A1649834449042&ei=0XlWYoCGAuqRrgTD8onYDQ&oq=bash+replace+string+in+file+&gs_lcp=Cgdnd3Mtd2l6EAEYADIFCAAQywEyCggAEIAEEIcCEBQyCggAEIAEEIcCEBQyBwgAEIAEEAoyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BwgAEEcQsAM6BwgAELADEENKBAhBGABKBAhGGABQpARYpARgrwtoAXABeACAAVuIAVuSAQExmAEAoAEByAEKwAEB&sclient=gws-wiz"
+                },
+                {
+                    "title": "regex - Search and replace in bash using regular expressions - Stack Overflow",
+                    "url": "https://stackoverflow.com/questions/13043344/search-and-replace-in-bash-using-regular-expressions"
+                },
+                {
+                    "title": "How to Use sed to Find and Replace String in Files | Linuxize",
+                    "url": "https://linuxize.com/post/how-to-use-sed-to-find-and-replace-string-in-files/"
+                },
+                {
+                    "title": "bash - Replace one substring for another string in shell script - Stack Overflow",
+                    "url": "https://stackoverflow.com/questions/13210880/replace-one-substring-for-another-string-in-shell-script"
+                },
+                {
+                    "title": "sed regexp - Google Search",
+                    "url": "https://www.google.com/search?q=sed+regexp"
+                },
+                {
+                    "title": "Regular Expressions - sed, a stream editor",
+                    "url": "https://www.gnu.org/software/sed/manual/html_node/Regular-Expressions.html"
+                },
+                {
+                    "title": "docker workdir - Google Search",
+                    "url": "https://www.google.com/search?q=docker+workdir"
+                },
+                {
+                    "title": "Dockerfile reference | Docker Documentation",
+                    "url": "https://docs.docker.com/engine/reference/builder/#entrypoint"
+                },
+                {
+                    "title": "Dockerfile reference | Docker Documentation",
+                    "url": "https://docs.docker.com/engine/reference/builder/#understand-how-arg-and-from-interact"
+                },
+                {
+                    "title": "Инструкции по установке Java для 64-разрядной версии Linux",
+                    "url": "https://java.com/ru/download/help/linux_x64_install.html"
+                },
+                {
+                    "title": "tar extract to folder - Google Search",
+                    "url": "https://www.google.com/search?q=tar+extract+to+folder"
+                },
+                {
+                    "title": "How To Extract a Tar Files To a Different Directory on a Linux/Unix-like Systems - nixCraft",
+                    "url": "https://www.cyberciti.biz/faq/howto-extract-tar-file-to-specific-directory-on-unixlinux/"
+                },
+                {
+                    "title": "if statement bash - Google Search",
+                    "url": "https://www.google.com/search?q=if+statement+bash&newwindow=1&sxsrf=APq-WBsHrbrpBrnuN6roI-mcG9g_gIkfyg%3A1649838907256&ei=O4tWYpKvD7mjjgbX8buYAQ&oq=if+statement&gs_lcp=Cgdnd3Mtd2l6EAEYATIECAAQQzIFCAAQkQIyBAgAEEMyBAgAEEMyBAgAEEMyBggAEAcQHjIGCAAQBxAeMgYIABAHEB4yBggAEAcQHjIGCAAQBxAeOgcIABBHELADSgQIQRgASgQIRhgAUMwFWMwFYMISaAFwAXgAgAGkAYgBpAGSAQMwLjGYAQCgAQHIAQjAAQE&sclient=gws-wiz"
+                },
+                {
+                    "title": "Bash if elif else Statement: A Comprehensive Tutorial with Examples",
+                    "url": "https://phoenixnap.com/kb/bash-if-statement"
+                },
+                {
+                    "title": "file not found in build context or excluded by .dockerignore - Google Search",
+                    "url": "https://www.google.com/search?q=file+not+found+in+build+context+or+excluded+by+.dockerignore"
+                },
+                {
+                    "title": "ubuntu - Docker: COPY failed: file not found in build context (Dockerfile) - Stack Overflow",
+                    "url": "https://stackoverflow.com/questions/69852628/docker-copy-failed-file-not-found-in-build-context-dockerfile"
+                },
+                {
+                    "title": "configure ssl alpine - Google Search",
+                    "url": "https://www.google.com/search?q=configure+ssl+alpine"
+                },
+                {
+                    "title": "Install Certificates in Alpine Image to establish Secured Communication (SSL/TLS) | HackerNoon",
+                    "url": "https://hackernoon.com/alpine-docker-image-with-secured-communication-ssl-tls-go-restful-api-128eb6b54f1f"
+                },
+                {
+                    "title": "sun.security.ssl.SSL Algorithm Constraints.<clinic> - Google Search",
+                    "url": "https://www.google.com/search?newwindow=1&sxsrf=APq-WBu9sLh6UqTXWjkqYbjbN1GAOp8TMg:1649841335226&q=sun.security.ssl.SSL+Algorithm+Constraints.%3Cclinic%3E&spell=1&sa=X&ved=2ahUKEwit4uL12ZD3AhUxCRAIHXv6AdAQBSgAegQIARAy&biw=1920&bih=966&dpr=1"
+                },
+                {
+                    "title": "Ошибка при соединении: SSLHandshakeException Certificates does not conform...",
+                    "url": "https://www.cryptopro.ru/forum2/default.aspx?g=posts&t=15075"
+                },
+                {
+                    "title": "run ssh docker - Google Search",
+                    "url": "https://www.google.com/search?q=run+ssh+docker"
+                },
+                {
+                    "title": "How to SSH into Docker Containers [Step-by-Step]",
+                    "url": "https://adamtheautomator.com/ssh-into-docker-container/"
+                },
+                {
+                    "title": "where is jdk in linux - Google Search",
+                    "url": "https://www.google.com/search?q=where+is+jdk+in+linux"
+                },
+                {
+                    "title": "Where can I find the Java SDK in Linux after installing it? - Stack Overflow",
+                    "url": "https://stackoverflow.com/questions/5251323/where-can-i-find-the-java-sdk-in-linux-after-installing-it"
+                },
+                {
+                    "title": "sun.security.ssl.protocolversion.valueof - Google Search",
+                    "url": "https://www.google.com/search?q=sun.security.ssl.protocolversion.valueof&newwindow=1&sxsrf=APq-WBu_bQcfEwBZiifDW2QW4y5i0Q0vfQ%3A1649842125101&ei=zZdWYrjQBY_frgTHorHwCw&oq=sun.security.ssl.ProtocolVersion.&gs_lcp=Cgdnd3Mtd2l6EAEYATIECAAQHjIECAAQHjoICAAQgAQQsAM6CQgAELADEAcQHkoECEEYAUoECEYYAFCwAliwAmCTD2gBcAB4AIABZIgBZJIBAzAuMZgBAKABAqABAcgBCsABAQ&sclient=gws-wiz"
+                },
+                {
+                    "title": "sun.security.ssl.ProtocolVersion.valueOf java code examples | Tabnine",
+                    "url": "https://www.tabnine.com/code/java/methods/sun.security.ssl.ProtocolVersion/valueOf"
+                },
+                {
+                    "title": "When Does Java Throw the ExceptionInInitializerError? | Baeldung",
+                    "url": "https://www.baeldung.com/java-exceptionininitializererror"
+                },
+                {
+                    "title": "docker show containers logs - Google Search",
+                    "url": "https://www.google.com/search?q=docker+show+containers+logs"
+                },
+                {
+                    "title": "docker logs | Docker Documentation",
+                    "url": "https://docs.docker.com/engine/reference/commandline/logs/"
+                },
+                {
+                    "title": "Java Archive Downloads - Java SE 8u211 and later",
+                    "url": "https://www.oracle.com/java/technologies/javase/javase8u211-later-archive-downloads.html#license-lightbox"
+                },
+                {
+                    "title": "find return fill path - Google Search",
+                    "url": "https://www.google.com/search?q=find+return+fill+path&newwindow=1&sxsrf=APq-WBt6Z_oQnyvcWoeiQzIlaeQbQNfV_w%3A1649852404770&ei=9L9WYoXTLr2jjgaehpWwAw&ved=0ahUKEwiFnZKUg5H3AhW9kcMKHR5DBTYQ4dUDCA0&uact=5&oq=find+return+fill+path&gs_lcp=Cgdnd3Mtd2l6EAMyBAgAEA0yCAgAEA0QBRAeOgcIABBHELADOgQIIxAnOgUIABCRAjoLCC4QgAQQxwEQ0QM6BQgAEIAEOgQIABBDOgUIABDLAToHCAAQChDLAToICAAQgAQQyQM6BggAEBYQHjoFCCEQoAE6BAghEBU6CAghEBYQHRAeSgQIQRgASgQIRhgAUPcGWNwuYNEwaAFwAXgAgAGSAYgBzxGSAQQ5LjEymAEAoAEByAEIwAEB&sclient=gws-wiz"
+                },
+                {
+                    "title": "Get absolute path of files using 'find' command - Ask Ubuntu",
+                    "url": "https://askubuntu.com/questions/444551/get-absolute-path-of-files-using-find-command"
+                },
+                {
+                    "title": "linux - Use grep to find content in files and move them if they match - Stack Overflow",
+                    "url": "https://stackoverflow.com/questions/91899/use-grep-to-find-content-in-files-and-move-them-if-they-match"
+                },
+                {
+                    "title": "How can I grep the results of FIND using -EXEC and still output to a file? - Unix & Linux Stack Exchange",
+                    "url": "https://unix.stackexchange.com/questions/21033/how-can-i-grep-the-results-of-find-using-exec-and-still-output-to-a-file"
+                },
+                {
+                    "title": "tar extrack from included dir - Google Search",
+                    "url": "https://www.google.com/search?q=tar+extrack+from+included+dir&newwindow=1&sxsrf=APq-WBs8hQxtgXk-1HwAHSvobs11G5ifRw%3A1649854370434&ei=osdWYquZGrGtrgTDxbD4DQ&ved=0ahUKEwir8ri9ipH3AhWxlosKHcMiDN8Q4dUDCA0&uact=5&oq=tar+extrack+from+included+dir&gs_lcp=Cgdnd3Mtd2l6EAMyCgghEBYQChAdEB4yCgghEBYQChAdEB4yCgghEBYQChAdEB4yCgghEBYQChAdEB46BwgAEEcQsAM6BQgAEJECOgUIABCABDoECAAQQzoECCMQJzoFCAAQywE6BwgjELECECc6BAgAEAo6BwgjELACECc6BAgAEA06BggAEBYQHjoGCAAQDRAeOggIABAIEA0QHjoHCCEQChCgAUoECEEYAEoECEYYAFCOCVipW2CXXGgBcAF4AIABkwGIAeIakgEFMTkuMTaYAQCgAQHIAQjAAQE&sclient=gws-wiz"
+                },
+                {
+                    "title": "linux - How do I extract files without folder structure using tar - Stack Overflow",
+                    "url": "https://stackoverflow.com/questions/14295771/how-do-i-extract-files-without-folder-structure-using-tar"
+                },
+                {
+                    "title": "How to extract specific file(s) from tar.gz - Unix & Linux Stack Exchange",
+                    "url": "https://unix.stackexchange.com/questions/61461/how-to-extract-specific-files-from-tar-gz"
+                },
+                {
+                    "title": "linux - Extract specific files in a tar archive using a wildcard - Super User",
+                    "url": "https://superuser.com/questions/504798/extract-specific-files-in-a-tar-archive-using-a-wildcard"
+                },
+                {
+                    "title": "PT_GNU_STACK program header, converted paxctl - Google Search",
+                    "url": "https://www.google.com/search?q=PT_GNU_STACK+program+header%2C+converted+paxctl&newwindow=1&sxsrf=APq-WBtjQRYKr16CgVYhqQq5TzZPHfghBg%3A1649855728232&ei=8MxWYt7hDf2GwPAPpKuMwAU&ved=0ahUKEwjemfLEj5H3AhV9AxAIHaQVA1gQ4dUDCA0&oq=PT_GNU_STACK+program+header%2C+converted+paxctl&gs_lcp=Cgdnd3Mtd2l6EAxKBAhBGAFKBAhGGABQlgVYlgVgohFoAXAAeACAAWGIAWGSAQExmAEAoAEBwAEB&sclient=gws-wiz"
+                },
+                {
+                    "title": "how to find binary file path in linux - Google Search",
+                    "url": "https://www.google.com/search?q=how+to+find+binary+file+path+in+linux"
+                },
+                {
+                    "title": "Linux / UNIX: Determine where a binary command is stored / located on file system - nixCraft",
+                    "url": "https://www.cyberciti.biz/tips/find-linux-unix-command-location.html"
+                },
+                {
+                    "title": "change path variable in dockerfile - Google Search",
+                    "url": "https://www.google.com/search?q=change+path+variable+in+dockerfile&newwindow=1&sxsrf=APq-WBuuiM6TxbQWAhD-23hZ2ylMPJMd_g%3A1649856047989&ei=L85WYpSDPIz-rgT5hqf4Cw&ved=0ahUKEwjU1q7dkJH3AhUMv4sKHXnDCb8Q4dUDCA0&uact=5&oq=change+path+variable+in+dockerfile&gs_lcp=Cgdnd3Mtd2l6EAMyBggAEBYQHjoHCAAQRxCwAzoFCAAQywE6BQgAEJECOgUIABCABEoECEEYAEoECEYYAFCvJVjXX2DSYGgCcAF4AIABeYgB6xCSAQUxMS4xMZgBAKABAcgBCMABAQ&sclient=gws-wiz"
+                },
+                {
+                    "title": "docker - In a Dockerfile, How to update PATH environment variable? - Stack Overflow",
+                    "url": "https://stackoverflow.com/questions/27093612/in-a-dockerfile-how-to-update-path-environment-variable"
+                },
+                {
+                    "title": "Specifying a default Docker storage directory by using bind mount - IBM Documentation",
+                    "url": "https://www.ibm.com/docs/en/cloud-private/3.2.x?topic=pyci-specifying-default-docker-storage-directory-by-using-bind-mount"
+                },
+                {
+                    "title": "How to set your $PATH variable in Linux | Opensource.com",
+                    "url": "https://opensource.com/article/17/6/set-path-linux"
+                },
+                {
+                    "title": "paxctl",
+                    "url": "http://man.he.net/man1/paxctl"
+                },
+                {
+                    "title": "rc-service: not found - Google Search",
+                    "url": "https://www.google.com/search?q=rc-service%3A+not+found"
+                },
+                {
+                    "title": "ssh - Docker alpine image's basic commands are not working - Stack Overflow",
+                    "url": "https://stackoverflow.com/questions/39460085/docker-alpine-images-basic-commands-are-not-working"
+                },
+                {
+                    "title": "rc-service: Exec format error - Google Search",
+                    "url": "https://www.google.com/search?q=rc-service%3A+Exec+format+error"
+                },
+                {
+                    "title": "bash - why am I getting Exec format error when I am writing my linux service? - Stack Overflow",
+                    "url": "https://stackoverflow.com/questions/57025605/why-am-i-getting-exec-format-error-when-i-am-writing-my-linux-service"
+                },
+                {
+                    "title": "WARNING: tomcat is already starting - Google Search",
+                    "url": "https://www.google.com/search?q=WARNING%3A+tomcat+is+already+starting"
+                },
+                {
+                    "title": "Starting, Stopping, and Restarting Tomcat - Tomcat: The Definitive Guide, 2nd Edition [Book]",
+                    "url": "https://www.oreilly.com/library/view/tomcat-the-definitive/9780596101060/ch01s02.html"
+                },
+                {
+                    "title": "kuberneties istio - Google Search",
+                    "url": "https://www.google.com/search?q=kuberneties+istio"
+                },
+                {
+                    "title": "Istio / Solutions",
+                    "url": "https://istio.io/latest/about/solutions/"
+                },
+                {
+                    "title": "Istio / Traffic Management",
+                    "url": "https://istio.io/latest/docs/concepts/traffic-management/"
+                },
+                {
+                    "title": "tomkat image kuberneties - Google Search",
+                    "url": "https://www.google.com/search?q=tomkat+image+kuberneties"
+                },
+                {
+                    "title": "jfclere/tomcat-kubernetes: What is needed to create a Tomcat Docker image to run a cluster of tomcats in Kubernetes.",
+                    "url": "https://github.com/jfclere/tomcat-kubernetes"
+                },
+                {
+                    "title": "How to Deploy Java Apps with Tomcat on Kubernetes - CloudyTuts",
+                    "url": "https://www.cloudytuts.com/tutorials/docker/how-to-deploy-java-apps-with-tomcat-on-kubernetes/"
+                },
+                {
+                    "title": "Новая вкладка",
+                    "url": "about:newtab"
+                },
+                {
+                    "title": "Docker Hub Container Image Library | App Containerization",
+                    "url": "https://hub.docker.com/"
+                },
+                {
+                    "title": "try to start java /bin/sh: /opt/java/bin/java: not found - Google Search",
+                    "url": "https://www.google.com/search?q=try+to+start+java+%2Fbin%2Fsh%3A+%2Fopt%2Fjava%2Fbin%2Fjava%3A+not+found"
+                },
+                {
+                    "title": "Docker alpine + oracle java: cannot find java - Stack Overflow",
+                    "url": "https://stackoverflow.com/questions/45147371/docker-alpine-oracle-java-cannot-find-java"
+                },
+                {
+                    "title": "Running Java on Docker? You're Breaking the Law - OverOps",
+                    "url": "https://www.overops.com/blog/running-java-on-docker-youre-breaking-the-law/"
+                },
+                {
+                    "title": "glibc alpine - Google Search",
+                    "url": "https://www.google.com/search?q=glibc+alpine&newwindow=1&sxsrf=APq-WBsV5NzESHB268SLwDvxWTzKaA6dTQ%3A1649910935179&ei=l6RXYtPHCvuVjga7q5XIBw&ved=0ahUKEwiT786Z3ZL3AhX7isMKHbtVBXkQ4dUDCA0&uact=5&oq=glibc+alpine&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAEJECMgUIABCABDIFCAAQgAQyBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjoHCAAQRxCwAzoHCAAQsAMQQzoECAAQQzoKCAAQgAQQhwIQFEoECEEYAEoECEYYAFBQWJQVYJEWaAFwAXgAgAGKAYgBsgWSAQM1LjKYAQCgAQHIAQrAAQE&sclient=gws-wiz"
+                },
+                {
+                    "title": "sgerrand/alpine-pkg-glibc: A glibc compatibility layer package for Alpine Linux",
+                    "url": "https://github.com/sgerrand/alpine-pkg-glibc"
+                },
+                {
+                    "title": "docker-alpine-glibc/Dockerfile at main · jeanblanchard/docker-alpine-glibc",
+                    "url": "https://github.com/jeanblanchard/docker-alpine-glibc/blob/main/Dockerfile"
+                },
+                {
+                    "title": "Is there a best practice on setting up glibc on docker alpine linux base image? - Stack Overflow",
+                    "url": "https://stackoverflow.com/questions/37818831/is-there-a-best-practice-on-setting-up-glibc-on-docker-alpine-linux-base-image"
+                },
+                {
+                    "title": "Running glibc programs - Alpine Linux",
+                    "url": "https://wiki.alpinelinux.org/wiki/Running_glibc_programs"
+                },
+                {
+                    "title": "oracle java 8 - Google Search",
+                    "url": "https://www.google.com/search?q=oracle+java+8"
+                },
+                {
+                    "title": "fw_error_www",
+                    "url": "https://edelivery.oracle.com/akam/otn/java/jdk/8u311-b11/4d5417147a92418ea8b615e228bb6935/jdk-8u311-linux-x64.tar.gz"
+                },
+                {
+                    "title": "Oracle | Cloud Applications and Cloud Platform",
+                    "url": "https://www.oracle.com/index.html"
+                },
+                {
+                    "title": "fw_error_www",
+                    "url": "https://edelivery.oracle.com/akam/otn/java/jdk/8u311-b11/4d5417147a92418ea8b615e228bb6935/jdk-8u311-linux-x64.tar.gz"
+                },
+                {
+                    "title": "rfpf[cnfy tvtqk - Google Search",
+                    "url": "https://www.google.com/search?q=rfpf%5Bcnfy+tvtqk"
+                },
+                {
+                    "title": "https://mail.kz/ru/signup",
+                    "url": "https://mail.kz/ru/signup"
+                },
+                {
+                    "title": "Diplomat Hotel & Business Center - Google Maps",
+                    "url": "https://www.google.com/maps/place/Diplomat+Hotel+%26+Business+Center/@51.1302159,71.422096,15z/data=!4m16!1m7!3m6!1s0x424580c47db54609:0x97f9148dddb19228!2sNur-Sultan+020000,+Kazakhstan!3b1!8m2!3d51.1605227!4d71.4703558!3m7!1s0x424586a7323f5fc9:0xff6809bcf089e5d4!5m2!4m1!1i2!8m2!3d51.131493!4d71.429"
+                },
+                {
+                    "title": "Mail.ru: почта, поиск в интернете, новости, игры",
+                    "url": "https://mail.ru/"
+                },
+                {
+                    "title": "Входящие - Почта Mail.ru",
+                    "url": "https://e.mail.ru/inbox/"
+                },
+                {
+                    "title": "Почта Mail.ru",
+                    "url": "https://e.mail.ru/1/0:16499130391238803839:1/"
+                },
+                {
+                    "title": "oracle java 8 download tar - Google Search",
+                    "url": "https://www.google.com/search?q=oracle+java+8+download+tar"
+                },
+                {
+                    "title": "download java from oracle without login",
+                    "url": "https://gist.github.com/wavezhang/ba8425f24a968ec9b2a8619d7c2d86a6"
+                },
+                {
+                    "title": "github - Google Search",
+                    "url": "https://www.google.com/search?q=github"
+                },
+                {
+                    "title": "Search · щкфсду овл",
+                    "url": "https://github.com/search?q=%D1%89%D0%BA%D1%84%D1%81%D0%B4%D1%83+%D0%BE%D0%B2%D0%BB"
+                },
+                {
+                    "title": "mirror.yandex.ru java - Google Search",
+                    "url": "https://www.google.com/search?q=mirror.yandex.ru+java&newwindow=1&sxsrf=APq-WBufmjzTj_LRJ-9umM5xIHOY8rXalw%3A1649913477679&ei=ha5XYoOPKY2arwTN9qXABw&ved=0ahUKEwjD5fzV5pL3AhUNzYsKHU17CXgQ4dUDCA0&uact=5&oq=mirror.yandex.ru+java&gs_lcp=Cgdnd3Mtd2l6EAMyBQghEKABOgQIIxAnOgUIABDLAToECAAQHkoECEEYAUoECEYYAFDEBVjpIWDeI2gFcAB4AIABkgGIAYEJkgEDMS45mAEAoAEBwAEB&sclient=gws-wiz"
+                },
+                {
+                    "title": "Index of /calculate/grp/x86_64/dev-java/",
+                    "url": "https://mirror.yandex.ru/calculate/grp/x86_64/dev-java/"
+                },
+                {
+                    "title": "Index of /",
+                    "url": "https://mirror.yandex.ru/"
+                },
+                {
+                    "title": "Новая вкладка",
+                    "url": "about:newtab"
+                },
+                {
+                    "title": "openjdk 8 alpine - Google Search",
+                    "url": "https://www.google.com/search?q=openjdk+8+alpine"
+                },
+                {
+                    "title": "Why new Java 8 images published by OpenJDK are no longer Alpine based but Debian 10(Buster) based? - Stack Overflow",
+                    "url": "https://stackoverflow.com/questions/61340138/why-new-java-8-images-published-by-openjdk-are-no-longer-alpine-based-but-debian"
+                },
+                {
+                    "title": "Уменьшение размера docker образа с spring boot приложением / Хабр",
+                    "url": "https://habr.com/ru/post/457476/"
+                },
+                {
+                    "title": "Alpine Linux packages",
+                    "url": "https://pkgs.alpinelinux.org/package/v3.3/community/x86/openjdk8"
+                },
+                {
+                    "title": "tomcat Tags | Docker Hub",
+                    "url": "https://hub.docker.com/_/tomcat?tab=tags&page=1&name=7.0.109"
+                },
+                {
+                    "title": "Image Layer Details - tomcat:7.0 | Docker Hub",
+                    "url": "https://hub.docker.com/layers/tomcat/library/tomcat/7.0/images/sha256-489823486120d076cb576640c5819c6fa54948f470b46c54f02b48f462eb2c23?context=explore"
+                },
+                {
+                    "title": "Image Layer Details - tomcat:7.0.109-jdk8-corretto | Docker Hub",
+                    "url": "https://hub.docker.com/layers/tomcat/library/tomcat/7.0.109-jdk8-corretto/images/sha256-c61f428bb7071d8d9125acdd1b5276aba8fec86752b7ab6ef4ead4d8a0594a3f?context=explore"
+                },
+                {
+                    "title": "Image Layer Details - tomcat:7.0.109-jdk8-adoptopenjdk-openj9 | Docker Hub",
+                    "url": "https://hub.docker.com/layers/tomcat/library/tomcat/7.0.109-jdk8-adoptopenjdk-openj9/images/sha256-0f1ebf34cec64b5a7526d8137e56612738ea042a793645f7ad94d0a9ffd8306d?context=explore"
+                },
+                {
+                    "title": "java-1.8.0-amazon-corretto - Google Search",
+                    "url": "https://www.google.com/search?q=java-1.8.0-amazon-corretto"
+                },
+                {
+                    "title": "Downloads for Amazon Corretto 8 - Amazon Corretto",
+                    "url": "https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/downloads-list.html"
+                },
+                {
+                    "title": "Amazon Corretto 8 Installation Instructions for Debian-Based, RPM-Based and Alpine Linux Distributions - Amazon Corretto",
+                    "url": "https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/generic-linux-install.html"
+                },
+                {
+                    "title": "Getting Started with Amazon Corretto 8 on Docker Images - Amazon Corretto",
+                    "url": "https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/docker-install.html"
+                },
+                {
+                    "title": "Oraclelinux - Official Image | Docker Hub",
+                    "url": "https://hub.docker.com/_/oraclelinux?tab=description"
+                },
+                {
+                    "title": "Image Layer Details - amazoncorretto:8-alpine3.14-jdk | Docker Hub",
+                    "url": "https://hub.docker.com/layers/amazoncorretto/library/amazoncorretto/8-alpine3.14-jdk/images/sha256-3a69b76d0a1f09c48ad73b95b66ab2d61e4c494c1603418a267dd8ba6d9b841b?context=explore"
+                },
+                {
+                    "title": "What is Amazon Corretto 8? - Amazon Corretto",
+                    "url": "https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/what-is-corretto-8.html"
+                },
+                {
+                    "title": "which difference jdk8 Amazon Corretto 8 - Google Search",
+                    "url": "https://www.google.com/search?q=which+difference+jdk8+Amazon+Corretto+8"
+                },
+                {
+                    "title": "java - Differences Amazon Corretto and OpenJDK - Stack Overflow",
+                    "url": "https://stackoverflow.com/questions/53305934/differences-amazon-corretto-and-openjdk"
+                },
+                {
+                    "title": "http://localhost:8080/",
+                    "url": "http://localhost:8080/"
+                },
+                {
+                    "title": "vpn ьщяшддф учеутышщты - Google Search",
+                    "url": "https://www.google.com/search?q=vpn+%D1%8C%D1%89%D1%8F%D1%88%D0%B4%D0%B4%D1%84+%D1%83%D1%87%D0%B5%D1%83%D1%82%D1%8B%D1%88%D1%89%D1%82%D1%8B"
+                },
+                {
+                    "title": "Hoxx VPN Proxy – Загрузите это расширение для 🦊 Firefox (ru)",
+                    "url": "https://addons.mozilla.org/ru/firefox/addon/hoxx-vpn-proxy/"
+                },
+                {
+                    "title": "Hoxx.com Welcome Page",
+                    "url": "https://govz.baths-belle.org/api2/app/6898/"
+                },
+                {
+                    "title": "Mail1.io - Временный провайдер электронной почты",
+                    "url": "https://megaradical.com/?aid=ZdsRFvtITI&from=mail1.io"
+                },
+                {
+                    "title": "Mail.ru: почта, поиск в интернете, новости, игры",
+                    "url": "https://mail.ru/"
+                },
+                {
+                    "title": "Почта Mail.ru",
+                    "url": "https://e.mail.ru/1/0:16499171550057327461:1/"
+                },
+                {
+                    "title": "Hoxx email verification",
+                    "url": "https://sftu.judge-noise.org:8081/h/api2/pub/verify/e/hx/us6xwka72nrh/kq0dkix4jg"
+                },
+                {
+                    "title": "install java rootfs - Google Search",
+                    "url": "https://www.google.com/search?q=install+java+rootfs"
+                },
+                {
+                    "title": "Installing Java in Proot",
+                    "url": "https://groups.google.com/g/proot_me/c/wJi6GE6eQow?pli=1"
+                },
+                {
+                    "title": "Java Downloads | Oracle",
+                    "url": "https://www.oracle.com/java/technologies/downloads/#java8"
+                },
+                {
+                    "title": "merge dirs - Google Search",
+                    "url": "https://www.google.com/search?q=merge+dirs"
+                },
+                {
+                    "title": "ubuntu - How to copy-merge two directories? - Unix & Linux Stack Exchange",
+                    "url": "https://unix.stackexchange.com/questions/149965/how-to-copy-merge-two-directories"
+                },
+                {
+                    "title": "Sonatype Nexus Maven Repository Manager",
+                    "url": "https://nexus.poidem.ru/nexus/index.html#view-repositories;thirdparty~browsestorage"
+                },
+                {
+                    "title": "sgerrand/alpine-pkg-glibc: A glibc compatibility layer package for Alpine Linux",
+                    "url": "https://github.com/sgerrand/alpine-pkg-glibc"
+                },
+                {
+                    "title": "sgerrand/docker-glibc-builder: A glibc binary package builder in Docker",
+                    "url": "https://github.com/sgerrand/docker-glibc-builder"
+                },
+                {
+                    "title": "Новая вкладка",
+                    "url": "about:newtab"
+                },
+                {
+                    "title": "apk add from file - Google Search",
+                    "url": "https://www.google.com/search?q=apk+add+vrom+file&newwindow=1&sxsrf=APq-WBswibLJgdQVCZ5q9HC7KU5Muf5PAg%3A1649919993288&ei=-cdXYsikEeLhrgSho4CYDg&ved=0ahUKEwiIhe74_pL3AhXisIsKHaERAOMQ4dUDCA0&uact=5&oq=apk+add+vrom+file&gs_lcp=Cgdnd3Mtd2l6EAMyBAgAEA0yCAgAEA0QBRAeMggIABAIEA0QHjoHCAAQRxCwAzoECCMQJzoECAAQQzoKCC4QxwEQ0QMQQzoFCAAQgAQ6CwguEIAEEMcBEKMCOgUIABCRAjoFCAAQywE6CggAEIAEEIcCEBQ6CAgAEBYQChAeOgYIABAWEB5KBAhBGABKBAhGGABQ6hBYsStg8CtoAnABeACAAW-IAY8MkgEEMTEuNZgBAKABAcgBCMABAQ&sclient=gws-wiz"
+                },
+                {
+                    "title": "Alpine Linux install package without internet (docker) - Stack Overflow",
+                    "url": "https://stackoverflow.com/questions/53620754/alpine-linux-install-package-without-internet-docker"
+                },
+                {
+                    "title": "Package management - Alpine Linux",
+                    "url": "https://wiki.alpinelinux.org/wiki/Package_management"
+                },
+                {
+                    "title": "How to Remove (Delete) Symbolic Links in Linux | Linuxize",
+                    "url": "https://linuxize.com/post/how-to-remove-symbolic-links-in-linux/"
+                },
+                {
+                    "title": "RUN ARG - Google Search",
+                    "url": "https://www.google.com/search?q=RUN+ARG+"
+                },
+                {
+                    "title": "docker - ARG substitution in RUN command not working for Dockerfile - Stack Overflow",
+                    "url": "https://stackoverflow.com/questions/44438637/arg-substitution-in-run-command-not-working-for-dockerfile"
+                },
+                {
+                    "title": "Новая вкладка",
+                    "url": "about:newtab"
+                },
+                {
+                    "title": "log-driver json-file - Google Search",
+                    "url": "https://www.google.com/search?q=log-driver+json-file"
+                },
+                {
+                    "title": "JSON File logging driver | Docker Documentation",
+                    "url": "https://docs.docker.com/config/containers/logging/json-file/"
+                },
+                {
+                    "title": "docker build from file - Google Search",
+                    "url": "https://www.google.com/search?q=docker+build+from+file"
+                },
+                {
+                    "title": "docker build | Docker Documentation",
+                    "url": "https://docs.docker.com/engine/reference/commandline/build/"
+                },
+                {
+                    "title": "file not found in build context or excluded by .dockerignore: stat home - Google Search",
+                    "url": "https://www.google.com/search?q=file+not+found+in+build+context+or+excluded+by+.dockerignore%3A+stat+home"
+                },
+                {
+                    "title": "ubuntu - Docker: COPY failed: file not found in build context (Dockerfile) - Stack Overflow",
+                    "url": "https://stackoverflow.com/questions/69852628/docker-copy-failed-file-not-found-in-build-context-dockerfile"
+                },
+                {
+                    "title": "Docker Context | Docker Documentation",
+                    "url": "https://docs.docker.com/engine/context/working-with-contexts/"
+                },
+                {
+                    "title": "short if linux - Google Search",
+                    "url": "https://www.google.com/search?q=short+if+linux&newwindow=1&biw=1920&bih=966&sxsrf=APq-WBusNtpfLPt_LO_6tUaqjHZ-EIbihQ%3A1649927139357&ei=4-NXYrHDFZ6EwPAPi-uG-A0&ved=0ahUKEwjxwK_ImZP3AhUeAhAIHYu1Ad8Q4dUDCA0&uact=5&oq=short+if+linux&gs_lcp=Cgdnd3Mtd2l6EAMyBggAEAgQHjoHCAAQRxCwA0oECEEYAEoECEYYAFC1A1i1A2CDBmgBcAF4AIABnwGIAZ8BkgEDMC4xmAEAoAEByAEIwAEB&sclient=gws-wiz"
+                },
+                {
+                    "title": "syntax - Ternary operator (?:) in Bash - Stack Overflow",
+                    "url": "https://stackoverflow.com/questions/3953645/ternary-operator-in-bash"
+                },
+                {
+                    "title": "Apache Tomcat/7.0.109",
+                    "url": "http://localhost:8081/"
+                },
+                {
+                    "title": "Apache Tomcat/7.0.109",
+                    "url": "http://localhost:8080/"
+                },
+                {
+                    "title": "канико - - Google Search",
+                    "url": "https://www.google.com/search?q=%D0%BA%D0%B0%D0%BD%D0%B8%D0%BA%D0%BE+-+"
+                },
+                {
+                    "title": "Kubernetes: сборка образов Docker в кластере / Хабр",
+                    "url": "https://habr.com/ru/company/southbridge/blog/436126/"
+                },
+                {
+                    "title": "gitlab-ci kaniko - Google Search",
+                    "url": "https://www.google.com/search?q=gitlab-ci+kaniko"
+                },
+                {
+                    "title": "gitlab-ci kaniko - Google Search",
+                    "url": "https://www.google.com/search?q=gitlab-ci+kaniko&newwindow=1&sxsrf=APq-WBu_B9hMztfOA55bihJtb9pjesPcGQ%3A1649929891027&ei=o-5XYvOkAeXIrgTAwYe4CQ&oq=gitlab+&gs_lcp=Cgdnd3Mtd2l6EAMYADIECCMQJzIECCMQJzIFCAAQkQIyBQgAEJECMgUIABCRAjIKCAAQgAQQhwIQFDIKCAAQgAQQhwIQFDIFCAAQgAQyBQgAEMsBMgUIABDLAToHCAAQRxCwAzoHCAAQsAMQQzoMCC4QyAMQsAMQQxgBOgUILhCABDoECAAQQzoKCC4QxwEQ0QMQQzoLCC4QgAQQxwEQ0QNKBAhBGABKBAhGGABQNliKImCpMGgCcAF4AIABc4gBnAaSAQM0LjSYAQCgAQHIAQzAAQHaAQQIARgI&sclient=gws-wiz"
+                },
+                {
+                    "title": "Use kaniko to build Docker images | GitLab",
+                    "url": "https://docs.gitlab.com/ee/ci/docker/using_kaniko.html"
+                },
+                {
+                    "title": "Runner SaaS | GitLab",
+                    "url": "https://docs.gitlab.com/ee/ci/runners/index.html"
+                },
+                {
+                    "title": "SaaS runners on Linux | GitLab",
+                    "url": "https://docs.gitlab.com/ee/ci/runners/saas/linux_saas_runner.html"
+                },
+                {
+                    "title": "GoogleContainerTools/kaniko: Build Container Images In Kubernetes",
+                    "url": "https://github.com/GoogleContainerTools/kaniko#running-kaniko"
+                },
+                {
+                    "title": "kaniko - Google Search",
+                    "url": "https://www.google.com/search?q=kaniko&newwindow=1&sxsrf=APq-WBuShTJroRi14AcIdTZRv4GVlU1cNQ%3A1649930075724&ei=W-9XYvjKK4P1rgTgpIYo&oq=kaniko&gs_lcp=Cgdnd3Mtd2l6EAEYADIFCAAQywEyBQgAEMsBMgUIABDLATIFCAAQgAQyBQgAEMsBMgUIABDLATIFCAAQywEyBQgAEMsBMgUIABCABDIFCAAQgAQ6BwgAEEcQsAM6BwgAELADEEM6CggAEOQCELADGAE6EgguEMcBENEDEMgDELADEEMYAjoOCC4QxwEQ0QMQ1AIQkQI6BQgAEJECOgQIABBDOgUILhCABDoLCC4QgAQQxwEQ0QM6CggAEIAEEIcCEBRKBAhBGABKBAhGGAFQ5gZYsQ1guB1oAXABeAGAAZQCiAHTBpIBBTEuNC4xmAEAoAEByAERwAEB2gEGCAEQARgJ2gEGCAIQARgI&sclient=gws-wiz"
+                },
+                {
+                    "title": "GoogleContainerTools/kaniko: Build Container Images In Kubernetes",
+                    "url": "https://github.com/GoogleContainerTools/kaniko"
+                },
+                {
+                    "title": "Kubernetes: сборка образов Docker в кластере / Хабр",
+                    "url": "https://habr.com/ru/company/southbridge/blog/436126/"
+                },
+                {
+                    "title": "git uncommit - Google Search",
+                    "url": "https://www.google.com/search?q=git+uncommit&newwindow=1&sxsrf=APq-WBt9dPCnA5kOrVHMoj_7DH1KTzcfgg%3A1649931636604&ei=dPVXYrnCJIPdrgTdxJSIAg&ved=0ahUKEwi5zOmoqpP3AhWDrosKHV0iBSEQ4dUDCA0&uact=5&oq=git+uncommit&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAEMsBMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEOgcIABBHELADOgcIABCwAxBDOgQIABBDOgoIABCABBCHAhAUOgcIIxCxAhAnOgcIABAKEMsBSgQIQRgASgQIRhgAUJUIWPMUYJoXaAFwAXgAgAGWAYgBzgaSAQM0LjSYAQCgAQHIAQrAAQE&sclient=gws-wiz"
+                },
+                {
+                    "title": "How to Uncommit Changes in Git? [Complete Guide] - Code Leaks",
+                    "url": "https://www.codeleaks.io/how-to-uncommit-changes-in-git/"
+                },
+                {
+                    "title": "undo - How to uncommit my last commit in Git - Stack Overflow",
+                    "url": "https://stackoverflow.com/questions/2845731/how-to-uncommit-my-last-commit-in-git"
+                },
+                {
+                    "title": "slim - Google Search",
+                    "url": "https://www.google.com/search?q=slim&newwindow=1&sxsrf=APq-WBv_ELOwiRmnyjQo85y7xRo_yVIhjg%3A1649932455219&ei=p_hXYvb9DOLhrgSho4CYDg&ved=0ahUKEwi27ZWvrZP3AhXisIsKHaERAOMQ4dUDCA0&uact=5&oq=slim&gs_lcp=Cgdnd3Mtd2l6EAMyBAgjECcyBAgAEEMyBwguENQCEEMyBAgAEEMyBAgAEEMyBAgAEEMyBwguENQCEEMyBwguENQCEEMyBQgAEIAEMgUIABCABDoHCAAQRxCwAzoHCAAQsAMQQzoPCC4Q1AIQyAMQsAMQQxgBOgwILhDIAxCwAxBDGAFKBAhBGABKBAhGGABQhgVYhgVgiAdoAXABeACAAWqIAWqSAQMwLjGYAQCgAQHIAQ3AAQHaAQQIARgI&sclient=gws-wiz"
+                },
+                {
+                    "title": "Новая вкладка",
+                    "url": "about:newtab"
+                },
+                {
+                    "title": "Error: error resolving dockerfile path: copying dockerfile: stat /workspace/Dockerfile: permission denied run_in_docker.sh - Google Search",
+                    "url": "https://www.google.com/search?q=Error%3A+error+resolving+dockerfile+path%3A+copying+dockerfile%3A+stat+%2Fworkspace%2FDockerfile%3A+permission+denied++run_in_docker.sh+"
+                },
+                {
+                    "title": "GoogleContainerTools/kaniko: Build Container Images In Kubernetes",
+                    "url": "https://github.com/GoogleContainerTools/kaniko#running-kaniko-in-docker"
+                },
+                {
+                    "title": "executor copying dockerfile: stat /workspace/Dockerfile: permission denied - Google Search",
+                    "url": "https://www.google.com/search?q=executor+copying+dockerfile%3A+stat+%2Fworkspace%2FDockerfile%3A+permission+denied"
+                },
+                {
+                    "title": "GoogleContainerTools/kaniko: Build Container Images In Kubernetes",
+                    "url": "https://github.com/GoogleContainerTools/kaniko"
+                },
+                {
+                    "title": "Новая вкладка",
+                    "url": "about:newtab"
+                },
+                {
+                    "title": "docker config.json - Google Search",
+                    "url": "https://www.google.com/search?q=docker+config.json"
+                },
+                {
+                    "title": "Use the Docker command line | Docker Documentation",
+                    "url": "https://docs.docker.com/engine/reference/commandline/cli/"
+                },
+                {
+                    "title": "docker login | Docker Documentation",
+                    "url": "https://docs.docker.com/engine/reference/commandline/login/#credentials-store"
+                },
+                {
+                    "title": "Docker security | Docker Documentation",
+                    "url": "https://docs.docker.com/engine/security/#docker-daemon-attack-surface"
+                },
+                {
+                    "title": "DEBU[0000] Copying file /workspace/Dockerfile to /kaniko/Dockerfile Error: error resolving dockerfile path: copying dockerfile: open /workspace/Dockerfile: permission denied - Google Search",
+                    "url": "https://www.google.com/search?q=DEBU%5B0000%5D+Copying+file+%2Fworkspace%2FDockerfile+to+%2Fkaniko%2FDockerfile++Error%3A+error+resolving+dockerfile+path%3A+copying+dockerfile%3A+open+%2Fworkspace%2FDockerfile%3A+permission+denied"
+                },
+                {
+                    "title": "Error: error resolving dockerfile path: copying dockerfile: creating file: open /kaniko/Dockerfile: permission denied · Issue #1363 · GoogleContainerTools/kaniko",
+                    "url": "https://github.com/GoogleContainerTools/kaniko/issues/1363"
+                },
+                {
+                    "title": "creating push check transport for failed - Google Search",
+                    "url": "https://www.google.com/search?q=creating+push+check+transport+for++failed&newwindow=1&sxsrf=APq-WBvKj_MoqVPOd2WPi417OffjGcCTgA%3A1649938454093&ei=FhBYYuueBYffrgTIprBo&ved=0ahUKEwjrgdTbw5P3AhWHr4sKHUgTDA0Q4dUDCA0&uact=5&oq=creating+push+check+transport+for++failed&gs_lcp=Cgdnd3Mtd2l6EAMyBggAEAcQHjIECAAQHjoHCAAQRxCwA0oECEEYAEoECEYYAFCtBFitBGCBB2gBcAF4AIABYYgBYZIBATGYAQCgAQHIAQjAAQE&sclient=gws-wiz"
+                },
+                {
+                    "title": "Unable to build and push Docker image into (private) Artifactory from GitLab CI using kaniko - Stack Overflow",
+                    "url": "https://stackoverflow.com/questions/67713978/unable-to-build-and-push-docker-image-into-private-artifactory-from-gitlab-ci"
+                },
+                {
+                    "title": "tat /kaniko/.docker/config.json: permission denied - Google Search",
+                    "url": "https://www.google.com/search?q=tat+%2Fkaniko%2F.docker%2Fconfig.json%3A+permission+denied"
+                },
+                {
+                    "title": "docker config.json auth example - Google Search",
+                    "url": "https://www.google.com/search?q=docker+config.json+auth+example"
+                },
+                {
+                    "title": "Docker login auth token - Stack Overflow",
+                    "url": "https://stackoverflow.com/questions/43441454/docker-login-auth-token"
+                },
+                {
+                    "title": "docker/docker-credential-helpers: Programs to keep Docker login credentials safe by storing in platform keystores",
+                    "url": "https://github.com/docker/docker-credential-helpers"
+                },
+                {
+                    "title": "docker login | Docker Documentation",
+                    "url": "https://docs.docker.com/engine/reference/commandline/login/"
+                },
+                {
+                    "title": "docker config.json access token - Google Search",
+                    "url": "https://www.google.com/search?q=docker+config.json+access+token"
+                },
+                {
+                    "title": "Authentication in Container Registry | Yandex.Cloud - Documentation",
+                    "url": "https://cloud.yandex.com/en-ru/docs/container-registry/operations/authentication"
+                },
+                {
+                    "title": "Manage access tokens | Docker Documentation",
+                    "url": "https://docs.docker.com/docker-hub/access-tokens/"
+                },
+                {
+                    "title": "selinux allow directory - Google Search",
+                    "url": "https://www.google.com/search?q=selinux+allow+directory"
+                },
+                {
+                    "title": "SELinux/Tutorials/How SELinux controls file and directory accesses - Gentoo Wiki",
+                    "url": "https://wiki.gentoo.org/wiki/SELinux/Tutorials/How_SELinux_controls_file_and_directory_accesses"
+                },
+                {
+                    "title": "fedora - SELinux httpd write access to a directory - Unix & Linux Stack Exchange",
+                    "url": "https://unix.stackexchange.com/questions/116575/selinux-httpd-write-access-to-a-directory"
+                },
+                {
+                    "title": "docker run from tarball - Google Search",
+                    "url": "https://www.google.com/search?q=docker+run+from+tarball"
+                },
+                {
+                    "title": "docker load | Docker Documentation",
+                    "url": "https://docs.docker.com/engine/reference/commandline/load/"
+                },
+                {
+                    "title": "kaniko gitlab - Google Search",
+                    "url": "https://www.google.com/search?q=kaniko+gitlab"
+                },
+                {
+                    "title": "Use kaniko to build Docker images | GitLab",
+                    "url": "https://docs.gitlab.com/ee/ci/docker/using_kaniko.html"
+                },
+                {
+                    "title": "Get started with GitLab CI/CD | GitLab",
+                    "url": "https://docs.gitlab.com/ee/ci/quick_start/"
+                },
+                {
+                    "title": "Migrating from Jenkins | GitLab",
+                    "url": "https://docs.gitlab.com/ee/ci/migration/jenkins.html"
+                },
+                {
+                    "title": "Migrating from Jenkins | GitLab",
+                    "url": "https://docs.gitlab.com/ee/ci/migration/jenkins.html#jenkinsfile-wrapper"
+                },
+                {
+                    "title": "Code Quality | GitLab",
+                    "url": "https://docs.gitlab.com/ee/user/project/merge_requests/code_quality.html"
+                },
+                {
+                    "title": "test docker image - Google Search",
+                    "url": "https://www.google.com/search?q=test+%D0%B2%D1%89%D1%81%D0%BB%D1%83%D0%BA+%D1%88%D1%8C%D1%84%D0%BF%D1%83"
+                },
+                {
+                    "title": "How to Build and Test Your Docker Images in the Cloud with Docker Hub - Docker",
+                    "url": "https://www.docker.com/blog/how-to-build-and-test-your-docker-images-in-the-cloud-with-docker-hub/"
+                },
+                {
+                    "title": "Новая вкладка",
+                    "url": "about:newtab"
+                },
+                {
+                    "title": "MySessions – Get this Extension for 🦊 Firefox (en-US)",
+                    "url": "https://addons.mozilla.org/en-US/firefox/addon/my-sessions/"
+                }
+            ]
+        },
+        "labels": {
+            "H8znKx_CkuRe": "window 1"
+        }
+    }
+]

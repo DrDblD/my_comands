@@ -65,3 +65,32 @@ docker rm container_ssh
 docker ps --all | grep /bin | awk '{print $1}' | xargs docker rm
 docker images --all
 docker images --all | grep none | awk '{print $3}' | xargs docker rmi
+
+# gitlab-runer
+docker volume create gitlab-runner-config
+docker run --rm -it -v gitlab-runner-config:/etc/gitlab-runner gitlab/gitlab-runner:latest register
+docker run -d --name gitlab-runner --restart always \
+     -v gitlab-runner-config:/etc/gitlab-runner:Z \
+     -v /var/run/docker.sock:/var/run/docker.sock \
+     gitlab/gitlab-runner:latest
+
+curl --header "PRIVATE-TOKEN: <gitl-token>" "https://gitlab.<domain>.ru/api/v4/runners/32"
+curl --request POST --header "PRIVATE-TOKEN: <gitl-token>" "https://gitlab.<domain>.ru/api/v4/projects/ops%2Ftomcat-base/runners" \
+     --form "runner_id=32"
+curl --request PUT --header "PRIVATE-TOKEN: <gitl-token>" "https://gitlab.<domain>.ru/api/v4/runners/32" \
+     --form "locked=true"
+
+https://www.cryptopro.ru/sites/default/files/products/cades/current_release_2_0/cades_linux_amd64.tar.gz
+
+# nexus cli https://gitlab.com/thiagocsf/nexus3-cli
+pip install nexus3-cli
+nexus3 login
+nexus3 repository list
+nexus3 repository create hosted raw bin
+mkdir -p /tmp/some/deep/test/path
+touch /tmp/some/deep/test/file.txt /tmp/some/deep/test/path/other.txt
+cd /tmp; nexus3 up some/ reponame/path/
+
+
+# screen
+screen -L -Logfile ~/${date}.screen.log -t 14april22y
