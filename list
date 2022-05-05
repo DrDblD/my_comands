@@ -12,10 +12,13 @@
 
 
 # VENV
-        apt install python3-venv
-        python3 -m venv env
-        chmod u+x env/bin/activate
-        source env/bin/activate
+     #    apt install python3-venv
+     #    python3 -m venv env
+     #    chmod u+x env/bin/activate
+     #    source env/bin/activate
+     python -m venv /tmp/tmp-env && source /tmp/tmp-env/bin/activate
+     deactivate && rm -r /tmp/tmp-env
+
 # ssh-key
 NAME=$@
 [ -n $NAME] && (ssh-keygen -f ~/.ssh/$NAME; cat $(find . -name $NAME.pub))
@@ -58,6 +61,8 @@ find $(pwd)/Загрузки/cades-linux-amd64/ -name *.rpm | xargs sudo rpm -iv
 find $(pwd)/Загрузки/cades-linux-amd64/ -name *.rpm | xargs sudo yum install
 echo "$(pwd)/Загрузки/cades-linux-amd64/" | (read p1; find $p1 -name *.rpm | xargs sudo rpm -qp --requires >> $p1requieres.log)
 
+echo -n "USER:PASSWORD" | base64 | awk '{print "{\n\t\"auths\"\: \{\n\t\t\"https://docker.poidem.ru/\"\: \{\n\t\t\t\"auth\"\: "$1" \n\t\t\} \n\t\} \n\}"}' > ~/.docker/config.json
+
 # play with docker
 docker build -t test-test . >> log.build
 docker run --name container_ssh -i -t test-test
@@ -80,11 +85,13 @@ curl --request POST --header "PRIVATE-TOKEN: <gitl-token>" "https://gitlab.<doma
 curl --request PUT --header "PRIVATE-TOKEN: <gitl-token>" "https://gitlab.<domain>.ru/api/v4/runners/32" \
      --form "locked=true"
 
+
+
 https://www.cryptopro.ru/sites/default/files/products/cades/current_release_2_0/cades_linux_amd64.tar.gz
 
 # nexus cli https://gitlab.com/thiagocsf/nexus3-cli
 pip install nexus3-cli
-nexus3 login
+nexus3 login -U <url> -u <username>
 nexus3 repository list
 nexus3 repository create hosted raw bin
 mkdir -p /tmp/some/deep/test/path
@@ -93,4 +100,14 @@ cd /tmp; nexus3 up some/ reponame/path/
 
 
 # screen
-screen -L -Logfile ~/${date}.screen.log -t 14april22y
+screen -L -Logfile ~/$(date '+%d/%m/%Y').screen.log -t $(date '+%d/%m/%Y')
+
+cat <<EOF | sudo tee /etc/yum.repos.d/kubernetes.repo
+[kubernetes]
+name=Kubernetes
+baseurl=https://packages.cloud.google.com/yum/repos/kubernetes-el7-x86_64
+enabled=1
+gpgcheck=1
+repo_gpgcheck=1
+gpgkey=https://packages.cloud.google.com/yum/doc/yum-key.gpg https://packages.cloud.google.com/yum/doc/rpm-package-key.gpg
+EOF
