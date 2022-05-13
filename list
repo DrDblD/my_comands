@@ -79,11 +79,13 @@ docker run -d --name gitlab-runner --restart always \
      -v /var/run/docker.sock:/var/run/docker.sock \
      gitlab/gitlab-runner:latest
 
-curl --header "PRIVATE-TOKEN: <gitl-token>" "https://gitlab.<domain>.ru/api/v4/runners/32"
-curl --request POST --header "PRIVATE-TOKEN: <gitl-token>" "https://gitlab.<domain>.ru/api/v4/projects/ops%2Ftomcat-base/runners" \
+curl --header "PRIVATE-TOKEN: <gitl-token>" "https://gitlab.<domain>.ru/api/v4/runners/01"
+curl --request POST --header "PRIVATE-TOKEN: <gitl-token>" "https://gitlab.<domain>/api/v4/projects/ops%2Ftomcat-base/runners" \
      --form "runner_id=32"
-curl --request PUT --header "PRIVATE-TOKEN: <gitl-token>" "https://gitlab.<domain>.ru/api/v4/runners/32" \
+curl --request PUT --header "PRIVATE-TOKEN: <gitl-token>" "https://gitlab.<domain>/api/v4/runners/01" \
      --form "locked=true"
+curl --request PUT --header "PRIVATE-TOKEN:  <gitl-token>" "https://gitlab.<domain>/api/v4/runners/32" \
+     --form "tag_list=docker"
 
 
 
@@ -111,3 +113,7 @@ gpgcheck=1
 repo_gpgcheck=1
 gpgkey=https://packages.cloud.google.com/yum/doc/yum-key.gpg https://packages.cloud.google.com/yum/doc/rpm-package-key.gpg
 EOF
+
+
+https://github.com/southbridgeio/kubespray
+https://github.com/kubernetes-sigs/kubespray
