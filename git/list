@@ -1,0 +1,3 @@
+git init -b main
+git add . && git commit -m "initial commit"
+git remote add origin git@github.com:DrDblD/py-sources.git

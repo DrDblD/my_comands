@@ -87,7 +87,13 @@ curl --request PUT --header "PRIVATE-TOKEN: <gitl-token>" "https://gitlab.<domai
 curl --request PUT --header "PRIVATE-TOKEN:  <gitl-token>" "https://gitlab.<domain>/api/v4/runners/32" \
      --form "tag_list=docker"
 
-
+curl --header "PRIVATE-TOKEN: glpat-kbaADs1GgzRtPQni2ZZR" "https://gitlab.poidem.ru/api/v4/runners/38"
+curl --header "PRIVATE-TOKEN: glpat-kbaADs1GgzRtPQni2ZZR" "https://gitlab.poidem.ru/api/v4/projects/ops%2Fjava-base/registry/repositories?tags=1"
+curl --header "PRIVATE-TOKEN: glpat-kbaADs1GgzRtPQni2ZZR" "https://gitlab.poidem.ru/api/v4/projects/ci-testing%2Fob/runners"
+curl --request PUT --header "PRIVATE-TOKEN: glpat-kbaADs1GgzRtPQni2ZZR" "https://gitlab.poidem.ru/api/v4/runners/99" \
+     --form "tags=docker"
+curl --request PUT --header "PRIVATE-TOKEN: glpat-kbaADs1GgzRtPQni2ZZR" "https://gitlab.poidem.ru/api/v4/runners/32" \
+     --form "tag_list=docker"
 
 https://www.cryptopro.ru/sites/default/files/products/cades/current_release_2_0/cades_linux_amd64.tar.gz
 
