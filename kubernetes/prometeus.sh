@@ -7,6 +7,10 @@ kubectl create namespace monitoring
 helm install [RELEASE_NAME] prometheus-community/kube-prometheus-stack --namespace monitoring
 kube-prometheus-stack
 
+
+helm install kube-prometheus-stack prometheus-community/kube-prometheus-stack --namespace monitoring
+
+
 # ####
 helm uninstall [RELEASE_NAME]
 kubectl delete crd alertmanagerconfigs.monitoring.coreos.com
