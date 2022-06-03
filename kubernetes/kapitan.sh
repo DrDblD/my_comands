@@ -7,7 +7,7 @@ else
 fi
 STPATH=${PWD}
 KAPATH=/tmp/la
-cp -r ~/repos/LISA/lisa-kube/* $KAPATH/
+cp -r $HOME/repos/LISA/lisa-kube/* $KAPATH/
 KAPITAN_IMAGE=kapicorp/kapitan:v0.30.0-rc.0
 
 # cd $KAPATH && \
@@ -17,3 +17,6 @@ KAPITAN_IMAGE=kapicorp/kapitan:v0.30.0-rc.0
 docker run --rm -i -w /src \
    -v $KAPATH/:/src:Z \
    $KAPITAN_IMAGE $@
+
+
+# /home/atab/repos/my_comands/kubernetes/kapitan.sh compile --targets lisa-dev --reveal

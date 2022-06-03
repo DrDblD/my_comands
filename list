@@ -87,14 +87,6 @@ curl --request PUT --header "PRIVATE-TOKEN: <gitl-token>" "https://gitlab.<domai
 curl --request PUT --header "PRIVATE-TOKEN:  <gitl-token>" "https://gitlab.<domain>/api/v4/runners/32" \
      --form "tag_list=docker"
 
-curl --header "PRIVATE-TOKEN: glpat-kbaADs1GgzRtPQni2ZZR" "https://gitlab.poidem.ru/api/v4/runners/38"
-curl --header "PRIVATE-TOKEN: glpat-kbaADs1GgzRtPQni2ZZR" "https://gitlab.poidem.ru/api/v4/projects/ops%2Fjava-base/registry/repositories?tags=1"
-curl --header "PRIVATE-TOKEN: glpat-kbaADs1GgzRtPQni2ZZR" "https://gitlab.poidem.ru/api/v4/projects/ci-testing%2Fob/runners"
-curl --request PUT --header "PRIVATE-TOKEN: glpat-kbaADs1GgzRtPQni2ZZR" "https://gitlab.poidem.ru/api/v4/runners/99" \
-     --form "tags=docker"
-curl --request PUT --header "PRIVATE-TOKEN: glpat-kbaADs1GgzRtPQni2ZZR" "https://gitlab.poidem.ru/api/v4/runners/32" \
-     --form "tag_list=docker"
-
 https://www.cryptopro.ru/sites/default/files/products/cades/current_release_2_0/cades_linux_amd64.tar.gz
 
 # nexus cli https://gitlab.com/thiagocsf/nexus3-cli
@@ -110,6 +102,19 @@ cd /tmp; nexus3 up some/ reponame/path/
 # screen
 screen -L -Logfile ~/$(date '+%d/%m/%Y').screen.log -t $(date '+%d/%m/%Y')
 
+To rename the window title within a screen session:
+    press and release Ctrl+a and then press Shift+a
+
+To rename the actual session name (displayed with screen -ls) use:
+    Ctrl+a :sessionname newName
+
+Press CTRL-a SHIFT-\ (CTRL-a |) to split the screen vertically.
+
+Press CTRL-a TAB until you’re in the new, blank pane
+
+press CTRL-a SHIFT-s (CTRL-a S) to split the pane horizontally.
+
+
 cat <<EOF | sudo tee /etc/yum.repos.d/kubernetes.repo
 [kubernetes]
 name=Kubernetes
@@ -123,3 +128,21 @@ EOF
 
 https://github.com/southbridgeio/kubespray
 https://github.com/kubernetes-sigs/kubespray
+
+
+openssl x509 -text -noout -in cert.crt 
+openssl s_client -showcerts -connect Cluster_IP:6443
+
+find /home/atab/.wks/bin/* -exec sudo ln -vs "{}" /usr/local/bin/ ';'
+
+all logs to file &>
+
+for the input, and:
+watch tail -30 /var/logs
+
+
+Krew is the package manager for kubectl plugins.
+kubectx - инструмент для переключения между кластерами
+kubectl-capacity - инструмент для отображения используемых ресурсов кластера
+kimages - инструмент для получения сведений об используемых образах контейнеров
+rakkess - инструмент для просмотра различных прав
