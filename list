@@ -10,6 +10,11 @@
 # A->B logged A
         scp /home/atab/projects/my_comands/docker_get.sh atab@192.168.1.14:/home/atab/docker_get.sh
 
+##### How to List All Connected SSH Sessions
+netstat -atnp | grep 'ESTABLISHED.*sshd' # old-style 
+ss | grep ssh # new stylelso
+
+ss -lntu
 
 # VENV
      #    apt install python3-venv
