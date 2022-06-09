@@ -1,0 +1,9 @@
+select * from PLUGINDATA;
+
+$JIRA_INSTALL/jre/bin/java -cp $JIRA_INSTALL/atlassian-jira/WEB-INF/lib/h2-1.4.185.jar org.h2.tools.Shell
+
+User      sa
+
+jdbc:h2:tcp://localhost/data/jira-data/database/h2db #server mode
+
+jdbc:h2:/data/jira-data/database/h2db #single mode

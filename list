@@ -76,6 +76,12 @@ docker ps --all | grep /bin | awk '{print $1}' | xargs docker rm
 docker images --all
 docker images --all | grep none | awk '{print $3}' | xargs docker rmi
 
+docker commit jira jira:debian-11-postgres-13
+docker tag jira:debian-11-postgres-13 jira:latest
+
+docker attach
+Docker supports a keyboard combination to gracefully detach from a container. Press Ctrl-P, followed by Ctrl-Q
+
 # gitlab-runer
 docker volume create gitlab-runner-config
 docker run --rm -it -v gitlab-runner-config:/etc/gitlab-runner gitlab/gitlab-runner:latest register

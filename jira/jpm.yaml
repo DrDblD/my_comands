@@ -1,0 +1,1768 @@
+properties:
+- admin-editable: 'false'
+  default-value: 'true'
+  key: jira.ajax.autocomplete.issuepicker.enabled
+  sysadmin-editable: 'false'
+  type: boolean
+- admin-editable: 'false'
+  default-value: '20'
+  description: The maximum number of items to show when making suggestions for auto-complete.
+  descriptionKey: jira.ajax.autocomplete.limit.desc
+  key: jira.ajax.autocomplete.limit
+  name: AJAX Auto-complete Limit
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'true'
+  default-value: 'true'
+  description: For supporting criteria updates search instantly
+  descriptionKey: jira.issuenav.criteria.update
+  key: jira.issuenav.criteria.autoupdate
+  name: Auto Update Criteria
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: boolean
+- admin-editable: 'false'
+  default-value: private
+  key: jira.alertheader.visibility
+  sysadmin-editable: 'false'
+  type: enum
+- admin-editable: 'false'
+  default-value: 'true'
+  key: jira.assignee.change.is.sent.to.both.parties
+  sysadmin-editable: 'false'
+  type: boolean
+- admin-editable: 'false'
+  default-value: 'true'
+  key: jira.attachment.allow.zip.support
+  sysadmin-editable: 'false'
+  type: boolean
+- admin-editable: 'false'
+  default-value: '10485760'
+  key: webwork.multipart.maxSize
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: docx, docm, dotx, dotm, xlsx, xlsm, xltx, xltm, xlsb, xlam, pptx,
+    pptm, potx, potm, ppam, ppsx, ppsm, sldx, sldm, thmx, odt, odp, ods, odg, odb,
+    odf, ott, otp, ots, otg, odm, sxw, stw, sxc, stc, sxi, sti, sxd, std, sxg
+  key: jira.attachment.do.not.expand.as.zip.extensions.list
+  sysadmin-editable: 'false'
+  type: list<string>
+- admin-editable: 'false'
+  default-value: workaround
+  key: jira.attachment.download.mime.sniffing.workaround
+  sysadmin-editable: 'false'
+  type: enum
+- admin-editable: 'false'
+  advanced-settings-page: 'true'
+  default-value: '30'
+  description: The contents of zip attachments can be displayed, but often there are
+    too many to display.
+  descriptionKey: jira.attachment.number.of.zip.entries.desc
+  key: jira.attachment.number.of.zip.entries
+  name: Maximum number of zip entries to display
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: uint
+- admin-editable: 'false'
+  default-value: 'true'
+  key: jira.autoexport
+  sysadmin-editable: 'false'
+  type: boolean
+- admin-editable: 'false'
+  default-value: '10'
+  key: jira.avatar.megapixels
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: 'false'
+  key: jira.browser.unsupported.warnings.disabled
+  sysadmin-editable: 'false'
+  type: boolean
+- admin-editable: 'false'
+  default-value: '1000'
+  key: jira.bulk.edit.limit.issue.count
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: '300'
+  key: jira.chart.days.previous.limit.daily
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: '10'
+  key: jira.chart.days.previous.limit.hourly
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: '7500'
+  key: jira.chart.days.previous.limit.monthly
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: '22500'
+  key: jira.chart.days.previous.limit.quarterly
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: '1750'
+  key: jira.chart.days.previous.limit.weekly
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: '36500'
+  key: jira.chart.days.previous.limit.yearly
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: Cloners
+  key: jira.clone.linktype.name
+  sysadmin-editable: 'false'
+  type: string
+- admin-editable: 'true'
+  advanced-settings-page: 'true'
+  default-value: CLONE -
+  key: jira.clone.prefix
+  name: The prefix added to the Summary field of cloned issues
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: string
+- admin-editable: 'false'
+  default-value: 'false'
+  key: jira.comment.level.visibility.groups
+  sysadmin-editable: 'false'
+  type: boolean
+- admin-editable: 'true'
+  default-value: '3840'
+  key: dashboard.item.width.max
+  name: Maximum width of a dashboard item
+  sysadmin-editable: 'true'
+  type: uint
+- admin-editable: 'true'
+  default-value: '2160'
+  key: dashboard.item.height.max
+  name: Maximum height of a dashboard item
+  sysadmin-editable: 'true'
+  type: uint
+- admin-editable: 'false'
+  default-value: '20'
+  key: jira.dashboard.max.gadgets
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: '100'
+  key: jira.databasequery.batch.size
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'true'
+  advanced-settings-page: 'true'
+  default-value: d/MMM/yy
+  description: This part is only for the Java (server side) generated dates. Note
+    that this should correspond to the javascript date picker format (jira.date.picker.javascript.format)
+    setting.
+  descriptionKey: jira.date.picker.java.format.desc
+  key: jira.date.picker.java.format
+  name: Date Picker Format (Java)
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: string
+  validator: com.atlassian.validation.SimpleDateFormatValidator
+- admin-editable: 'true'
+  advanced-settings-page: 'true'
+  default-value: '%e/%b/%y'
+  description: This part is only for the JavaScript (client side) generated dates.
+    Note that this should correspond to the java date picker format (jira.date.picker.java.format)
+    setting.
+  descriptionKey: jira.date.picker.javascript.format.desc
+  key: jira.date.picker.javascript.format
+  name: Date Picker Format (JavaScript)
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: string
+- admin-editable: 'true'
+  advanced-settings-page: 'true'
+  default-value: dd/MMM/yy h:mm a
+  description: This part is only for the Java (server side) generated datetimes. Note
+    that this should correspond to the javascript datetime picker format (jira.date.time.picker.javascript.format)
+    setting.
+  descriptionKey: jira.date.time.picker.java.format.desc
+  key: jira.date.time.picker.java.format
+  name: DateTime Picker Format (Java)
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: string
+  validator: com.atlassian.validation.SimpleDateFormatValidator
+- admin-editable: 'true'
+  advanced-settings-page: 'true'
+  default-value: '%e/%b/%y %I:%M %p'
+  description: This part is only for the JavaScript (client side) generated date times.
+    Note that this should correspond to the java datetime picker format (jira.date.time.picker.java.format)
+    setting.
+  descriptionKey: jira.date.time.picker.javascript.format.desc
+  key: jira.date.time.picker.javascript.format
+  name: DateTime Picker Format (JavaScript)
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: string
+- admin-editable: 'false'
+  default-value: java:comp/env/jdbc/JiraDS
+  key: jira.default.jndi.name
+  sysadmin-editable: 'false'
+  type: string
+- admin-editable: 'false'
+  default-value: 'false'
+  key: jira.disable.login.gadget
+  sysadmin-editable: 'false'
+  type: boolean
+- admin-editable: 'false'
+  default-value: 'true'
+  key: jira.disable.multipart.get.http.request
+  sysadmin-editable: 'false'
+  type: boolean
+- admin-editable: 'false'
+  default-value: ${fullname} (Jira)
+  key: jira.email.fromheader.format
+  sysadmin-editable: 'false'
+  type: string
+- default-value: '-1'
+  description: The number of items to fetch from the database into memory at a time.  The
+    default setting of -1 will stream the values on MySQL and use a fetch size of
+    1000 on other databases.
+  key: jira.export.fetchsize
+  type: uint
+  user-editable: 'false'
+- admin-editable: 'false'
+  default-value: 'true'
+  key: jira.exportimport.cleanxml
+  sysadmin-editable: 'false'
+  type: boolean
+- admin-editable: 'false'
+  default-value: null
+  key: jira.home
+  sysadmin-editable: 'false'
+  type: string
+- admin-editable: 'false'
+  default-value: 'true'
+  key: jira.i18n.include.meta-data
+  sysadmin-editable: 'false'
+  type: boolean
+- default-value: '100'
+  description: The maximum number of elements allowed on the queue before the XML
+    parser waits for the database to catch up
+  key: jira.import.maxqueuesize
+  type: uint
+  user-editable: 'false'
+- default-value: '10'
+  description: How many threads to use for multi-threaded insertion of imported data
+  key: jira.import.threads
+  type: uint
+  user-editable: 'false'
+- admin-editable: 'false'
+  default-value: '1024'
+  key: jira.index.batch.maxrambuffermb
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: '1024'
+  key: jira.index.interactive.maxrambuffermb
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: '4000'
+  description: The maximum number of elements allowed on the queue before blocking
+    on queue submission
+  key: jira.index.issue.maxqueuesize
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: '50'
+  description: Minimum size of a batch that will cause the operation to become multi-threaded
+  key: jira.index.issue.minbatchsize
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: '20'
+  description: How many threads to use for multi-threaded indexing of issues
+  key: jira.index.issue.threads
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: '4000'
+  description: The maximum number of elements allowed on the queue before blocking
+    on queue submission
+  key: jira.index.sharedentity.maxqueuesize
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: '50'
+  description: Minimum size of a batch that will cause the operation to become multi-threaded
+  key: jira.index.sharedentity.minbatchsize
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: '10'
+  description: How many threads to use for multi-threaded indexing of shared entities
+    (things that are favourited and/or shared)
+  key: jira.index.sharedentity.threads
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: '30000'
+  key: jira.index.lock.waittime
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: '2147483647'
+  key: jira.index.max.reindexes
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: '30000'
+  description: Index updates are written to disk at intervals of this many milliseconds.
+  key: jira.index.commitfrequency
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: 'true'
+  description: Enable this option to significantly reduce memory pressure induced
+    by TermInfosReader on each index write. By default, IndexWriter does not pool
+    the SegmentReaders it must open for deletions and merging, unless a near-real-time
+    reader has been obtained. This method lets you enable pooling without getting
+    a near-real-time reader (PERIODIC commit policy).
+  key: jira.index.readerpooling
+  sysadmin-editable: 'false'
+  type: boolean
+- admin-editable: 'false'
+  default-value: '10'
+  description: When forceMergeDeletes is called, we only merge away a segment if its
+    delete percentage is over this threshold. Default is 10%.
+  key: jira.index.mergepolicy.forcemergedeletespctallowed
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: '2'
+  description: The TieredMergePolicy tries to merge together index segments that are
+    roughly the same size. This setting tells it to ignore size differences for segments
+    that are smaller than this, allowing all small segments to be candidates for merging.
+  key: jira.index.mergepolicy.floorsegmentmb
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: '10'
+  description: The maximum number of segment files that can be simultaneously merged
+    into a single larger segment during normal internal merging.
+  key: jira.index.mergepolicy.maxmergeatonce
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: '30'
+  description: This value is used instead of jira.index.mergepolicy.maxmergeatonce
+    when the merge is explicitly requested using IndexWriter.optimize or IndexWriter.expungeDeletes
+  key: jira.index.mergepolicy.maxmergeatonceexplicit
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: '5120'
+  description: This is the largest size for any single segment of the index to reach.  Lucene's
+    default is 5120, which means 5GB segment files and slow merges so it is reduced,
+    here.  Setting it too low slows down searches and risks too many open files at
+    once.
+  key: jira.index.mergepolicy.maxmergedsegmentmb
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: '10'
+  description: Controls what percentage of the total index size a segment can reach
+    and still be a candidate for merging into the compound file format, which combines
+    term dictionaries, frequencies, and so forth into a single file instead of individual
+    ones. Smaller means more files and slower searching; larger means fewer but larger
+    files and probably slower writes.
+  key: jira.index.mergepolicy.nocfspct
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: '10'
+  description: A balancing factor that controls the number of segments that are permitted
+    at each tier, meaning indexes that are roughly equivalent in size. With the default
+    setting, it would be ok to have 9 segments that are 8MB each, but when a 10th
+    is created, it would trigger 2 or more of them to be combined, which would move
+    them up to a larger tier.
+  key: jira.index.mergepolicy.segmentspertier
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: '2.0'
+  description: Controls how aggressively merges that reclaim more deletions are favored.
+    Higher values will more aggressively target merges that reclaim deletions. A value
+    of 3.0 is probably nearly too high. A value of 0.0 means deletions don't impact
+    merge selection.
+  key: jira.index.mergepolicy.reclaimdeletesweight
+  sysadmin-editable: 'false'
+  type: double
+- admin-editable: 'false'
+  default-value: Infinity
+  description: Controls the maximum compound file segment size. If a merged segment
+    would be more than this value, it will be left as a non-compound file, even if
+    jira.index.mergepolicy.usecompoundfile = true.
+  key: jira.index.mergepolicy.maxcfssegmentsizemb
+  sysadmin-editable: 'false'
+  type: double
+- admin-editable: 'false'
+  default-value: 'false'
+  description: An on/off switch for the use of the compound file format (compact index
+    to use fewer file descriptors).
+  key: jira.index.mergepolicy.usecompoundfile
+  sysadmin-editable: 'false'
+  type: boolean
+- admin-editable: 'false'
+  default-value: '400'
+  key: jira.index.update.bulk.optimization
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  advanced-settings-page: 'true'
+  default-value: '4000'
+  description: The number of issues to read from the database at once during background
+    and foreground indexing.
+  key: jira.index.background.batch.size
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: uint
+- admin-editable: 'true'
+  advanced-settings-page: 'true'
+  default-value: asc
+  description: The default order of actions (tab items like 'Comments', 'Change History'
+    etc) on the 'View Issue' screen, by date, from top to bottom.
+  descriptionKey: jira.issue.actions.order.desc
+  key: jira.issue.actions.order
+  name: Jira issue actions order
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type:
+    enum:
+    - asc
+- admin-editable: 'false'
+  default-value: '200'
+  key: jira.issueindex.fetch.size
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: jira
+  key: jira.lf.application.id
+  sysadmin-editable: 'false'
+  type: string
+- admin-editable: 'false'
+  default-value: 'true'
+  key: jira.lf.date.relativize
+  requires-restart: 'false'
+  sysadmin-editable: 'false'
+  type: boolean
+- admin-editable: 'true'
+  default-value: h:mm a
+  example-generator: com.atlassian.jira.datetime.ExampleDateFormatOutputGenerator
+  key: jira.lf.date.time
+  nameKey: admin.globalsettings.lookandfeel.time.format
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: string
+  validator: com.atlassian.validation.SimpleDateFormatValidator
+- admin-editable: 'true'
+  default-value: EEEE h:mm a
+  example-generator: com.atlassian.jira.datetime.ExampleDateFormatOutputGenerator
+  key: jira.lf.date.day
+  nameKey: admin.globalsettings.lookandfeel.day.format
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: string
+  validator: com.atlassian.validation.SimpleDateFormatValidator
+- admin-editable: 'true'
+  default-value: dd/MMM/yy h:mm a
+  example-generator: com.atlassian.jira.datetime.ExampleDateFormatOutputGenerator
+  key: jira.lf.date.complete
+  nameKey: admin.globalsettings.lookandfeel.complete.date.time.format
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: string
+  validator: com.atlassian.validation.SimpleDateFormatValidator
+- admin-editable: 'true'
+  default-value: dd/MMM/yy
+  example-generator: com.atlassian.jira.datetime.ExampleDateFormatOutputGenerator
+  key: jira.lf.date.dmy
+  nameKey: admin.globalsettings.lookandfeel.day.month.year.format
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: string
+  validator: com.atlassian.validation.SimpleDateFormatValidator
+- admin-editable: 'true'
+  default-value: 'false'
+  descriptionKey: admin.globalsettings.lookandfeel.date.time.picker.useISO8601.description
+  key: jira.date.time.picker.use.iso8061
+  nameKey: admin.globalsettings.lookandfeel.date.time.picker.useISO8601
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: boolean
+- admin-editable: 'true'
+  default-value: '#0747a6'
+  key: jira.lf.gadget.color1
+  nameKey: admin.globalsettings.lookandfeel.gadget.colour.color1
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: colour
+  validator: com.atlassian.validation.HexColourValidator
+- admin-editable: 'true'
+  default-value: '#de350b'
+  key: jira.lf.gadget.color2
+  nameKey: admin.globalsettings.lookandfeel.gadget.colour.color2
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: colour
+  validator: com.atlassian.validation.HexColourValidator
+- admin-editable: 'true'
+  default-value: '#ff8b00'
+  key: jira.lf.gadget.color3
+  nameKey: admin.globalsettings.lookandfeel.gadget.colour.color3
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: colour
+  validator: com.atlassian.validation.HexColourValidator
+- admin-editable: 'true'
+  default-value: '#00875a'
+  key: jira.lf.gadget.color4
+  nameKey: admin.globalsettings.lookandfeel.gadget.colour.color4
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: colour
+  validator: com.atlassian.validation.HexColourValidator
+- admin-editable: 'true'
+  default-value: '#00a3bf'
+  key: jira.lf.gadget.color5
+  nameKey: admin.globalsettings.lookandfeel.gadget.colour.color5
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: colour
+  validator: com.atlassian.validation.HexColourValidator
+- admin-editable: 'true'
+  default-value: '#6554c0'
+  key: jira.lf.gadget.color6
+  nameKey: admin.globalsettings.lookandfeel.gadget.colour.color6
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: colour
+  validator: com.atlassian.validation.HexColourValidator
+- admin-editable: 'true'
+  default-value: '#5e6c84'
+  key: jira.lf.gadget.color7
+  nameKey: admin.globalsettings.lookandfeel.gadget.colour.color7
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: colour
+  validator: com.atlassian.validation.HexColourValidator
+- admin-editable: 'false'
+  default-value: '30'
+  key: jira.lf.logo.height
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'true'
+  default-value: /images/jira-core.png
+  key: jira.lf.logo.url
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: string (url)
+- admin-editable: 'true'
+  default-value: 'false'
+  key: jira.lf.logo.show.application.title
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: boolean
+- admin-editable: 'false'
+  default-value: '57'
+  key: jira.lf.logo.width
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'true'
+  default-value: /favicon.ico
+  key: jira.lf.favicon.url
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: string (url)
+- admin-editable: 'true'
+  default-value: /images/fav-jcore.png
+  key: jira.lf.favicon.hires.url
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: string (url)
+- admin-editable: 'true'
+  default-value: '#0747a6'
+  key: jira.lf.top.bgcolour
+  nameKey: admin.globalsettings.lookandfeel.top.bar.colour
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: colour
+  validator: com.atlassian.validation.HexColourValidator
+- admin-editable: 'true'
+  default-value: '#033681'
+  key: jira.lf.top.hilightcolour
+  nameKey: admin.globalsettings.lookandfeel.top.bar.hilightcolour
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: colour
+  validator: com.atlassian.validation.HexColourValidator
+- admin-editable: 'true'
+  default-value: '#2e3d54'
+  key: jira.lf.top.separator.bgcolor
+  nameKey: admin.globalsettings.lookandfeel.top.separatorcolor
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: colour
+  validator: com.atlassian.validation.HexColourValidator
+- admin-editable: 'true'
+  default-value: '#deebff'
+  key: jira.lf.top.textcolour
+  nameKey: admin.globalsettings.lookandfeel.top.text.colour
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: colour
+  validator: com.atlassian.validation.HexColourValidator
+- admin-editable: 'true'
+  default-value: '#deebff'
+  key: jira.lf.top.texthilightcolour
+  name: Text Colour on Highlight in the header
+  nameKey: admin.globalsettings.lookandfeel.top.text.hilightcolour
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: colour
+  validator: com.atlassian.validation.HexColourValidator
+- admin-editable: 'true'
+  default-value: '#ebecf0'
+  key: jira.lf.menu.bgcolour
+  nameKey: admin.globalsettings.lookandfeel.menu.bar.colour
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: colour
+  validator: com.atlassian.validation.HexColourValidator
+- admin-editable: 'true'
+  default-value: '#dfe1e6'
+  key: jira.lf.menu.separator
+  nameKey: admin.globalsettings.lookandfeel.menu.bar.separator.colour
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: colour
+  validator: com.atlassian.validation.HexColourValidator
+- admin-editable: 'true'
+  default-value: '#42526e'
+  key: jira.lf.menu.textcolour
+  nameKey: admin.globalsettings.lookandfeel.menu.bar.text.colour
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: colour
+  validator: com.atlassian.validation.HexColourValidator
+- admin-editable: 'true'
+  default-value: '#0065ff'
+  key: jira.lf.hero.button.base.bg.colour
+  nameKey: admin.globalsettings.lookandfeel.herobutton.bg.colour
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: colour
+  validator: com.atlassian.validation.HexColourValidator
+- admin-editable: 'true'
+  default-value: '#deebff'
+  key: jira.lf.hero.button.text.colour
+  nameKey: admin.globalsettings.lookandfeel.herobutton.text.colour
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: colour
+  validator: com.atlassian.validation.HexColourValidator
+- admin-editable: 'true'
+  default-value: '#0065ff'
+  key: jira.lf.text.activelinkcolour
+  nameKey: admin.globalsettings.lookandfeel.link.active.colour
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: colour
+  validator: com.atlassian.validation.HexColourValidator
+- admin-editable: 'true'
+  default-value: '#172b4d'
+  key: jira.lf.text.headingcolour
+  nameKey: admin.globalsettings.lookandfeel.heading.colour
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: colour
+  validator: com.atlassian.validation.HexColourValidator
+- admin-editable: 'true'
+  default-value: '#0052cc'
+  key: jira.lf.text.linkcolour
+  nameKey: admin.globalsettings.lookandfeel.link.colour
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: colour
+  validator: com.atlassian.validation.HexColourValidator
+- admin-editable: 'false'
+  default-value: '5'
+  key: jira.max.AdminPage.history.items
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: '10'
+  key: jira.max.history.items
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: '10'
+  key: jira.max.issue.filter.dropdown.items
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: '6'
+  key: jira.max.issue.history.dropdown.items
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: '50'
+  key: jira.max.Issue.history.items
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: '10'
+  key: jira.max.JQLQuery.history.items
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: '3'
+  key: jira.maximum.authentication.attempts.allowed
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: 'true'
+  description: Controls whether XSRF (Cross-Site Request Forgery) security token protection
+    is enabled in Jira. See http://en.wikipedia.org/wiki/Cross-site_request_forgery
+    for more information.
+  descriptionKey: jira.xsrf.enabled.desc
+  key: jira.xsrf.enabled
+  name: XSRF security measures
+  requires-restart: 'false'
+  sysadmin-editable: 'false'
+  type: boolean
+- admin-editable: 'false'
+  default-value: 'false'
+  description: Controls the ability to turn off database transaction support. Only
+    do so if directed to by Atlassian Support.
+  descriptionKey: jira.db.txns.disabled.desc
+  key: jira.db.txns.disabled
+  name: Database Transaction Support
+  requires-restart: 'false'
+  sysadmin-editable: 'false'
+  type: boolean
+- admin-editable: 'false'
+  default-value: 'true'
+  key: jira.option.allowcookies
+  sysadmin-editable: 'false'
+  type: boolean
+- admin-editable: 'false'
+  default-value: 'true'
+  key: jira.option.allowthumbnails
+  sysadmin-editable: 'false'
+  type: boolean
+- admin-editable: 'false'
+  default-value: show
+  key: jira.option.emailvisible
+  sysadmin-editable: 'false'
+  type: enum
+- admin-editable: 'false'
+  default-value: 'true'
+  key: jira.option.ignore.url.with.key
+  sysadmin-editable: 'false'
+  type: boolean
+- admin-editable: 'false'
+  default-value: never
+  key: jira.option.logoutconfirm
+  sysadmin-editable: 'false'
+  type: enum
+- admin-editable: 'false'
+  advanced-settings-page: 'true'
+  default-value: 'true'
+  description: Controls whether or not the ability to rename a user is enabled when
+    Jira is configured to act as a Crowd server. Some client applications depending
+    on Jira's Crowd server implementation may misinterpret a renamed user as having
+    been deleted and created anew, in which case you can use this flag to disallow
+    renames in Jira.
+  key: jira.option.user.crowd.allow.rename
+  name: Allow users to be renamed even when Jira is acting as a Crowd server
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: boolean
+- admin-editable: 'false'
+  default-value: '-1'
+  description: For how many months should audit log entries be retained. Negative
+    value means indefinitely
+  key: jira.option.auditing.log.retention.period.in.months
+  sysadmin-editable: 'false'
+  type: string
+- admin-editable: 'false'
+  default-value: '0'
+  description: Unix timestamp saying when the last change of auditing retention period
+    was made. Value of zero means no change yet.
+  key: jira.option.auditing.log.retention.period.last.change.timestamp
+  sysadmin-editable: 'false'
+  type: string
+- admin-editable: 'false'
+  default-value: '3'
+  key: jira.project.summary.max.issues
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: admin.projects.key.description
+  key: jira.projectkey.description
+  requires-restart: 'true'
+  sysadmin-editable: 'false'
+  type: i18n ref
+- admin-editable: 'false'
+  default-value: '10'
+  key: jira.projectkey.maxlength
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  advanced-settings-page: 'true'
+  default-value: ([A-Z][A-Z0-9]+)
+  description: A regular expression that defines a valid project key.
+  descriptionKey: jira.projectkey.pattern.desc
+  key: jira.projectkey.pattern
+  name: Jira project key pattern
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: string
+  validator: com.atlassian.jira.project.ProjectKeyRegexValidator
+- admin-editable: 'false'
+  default-value: PRN, AUX, CLOCK$, NUL, COM1, COM2, COM3, COM4, COM5, COM6, COM7,
+    COM8, COM9, CON, LPT1, LPT2, LPT3, LPT4, LPT5, LPT6, LPT7, LPT8, LPT9
+  key: jira.projectkey.reservedwords.list
+  sysadmin-editable: 'false'
+  type: list<string>
+- admin-editable: 'false'
+  default-value: admin.errors.must.specify.unique.project.key
+  key: jira.projectkey.warning
+  sysadmin-editable: 'false'
+  type: i18n ref
+- admin-editable: 'false'
+  default-value: '80'
+  key: jira.projectname.maxlength
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: Html
+  key: jira.releasenotes.default
+  sysadmin-editable: 'false'
+  type: string
+- admin-editable: 'false'
+  default-value: Html, Text
+  key: jira.releasenotes.templatenames
+  sysadmin-editable: 'false'
+  type: list<string>
+- admin-editable: 'false'
+  default-value: releasenotes-html.vm, releasenotes-text.vm
+  key: jira.releasenotes.templates
+  sysadmin-editable: 'false'
+  type: list<string>
+- admin-editable: 'false'
+  default-value: '5'
+  key: jira.schemes.comparison.max
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: 'true'
+  key: jira.screenshotapplet.enabled
+  sysadmin-editable: 'false'
+  type: boolean
+- admin-editable: 'false'
+  default-value: 'false'
+  key: jira.screenshotapplet.linux.enabled
+  sysadmin-editable: 'false'
+  type: boolean
+- admin-editable: 'false'
+  default-value: 'true'
+  key: jira.search.fullcontentview.pagebreaks
+  sysadmin-editable: 'false'
+  type: boolean
+- admin-editable: 'false'
+  default-value: '65000'
+  key: jira.search.maxclauses
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'true'
+  advanced-settings-page: 'true'
+  default-value: '1000'
+  description: The default maximum number of issues exported from search results.
+    Users can override the default by changing the URL 'tempMax' parameter. This value
+    must always be lower than or equal to the 'jira.serach.views.max.limit' value.
+    When set to '0' there is no default limit applied, but the value of 'jira.search.views.max.limit'
+    still applies.
+  key: jira.search.views.default.max
+  name: Soft limit for the number of issues that can be exported
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: uint
+- admin-editable: 'true'
+  advanced-settings-page: 'true'
+  default-value: '1000'
+  description: This number sets the absolute limit on the number of issues that can
+    be exported from search results. Users trying to request more get a 403 (Forbidden)
+    HTTP error code. To disable, set to '-1'. After changing it, update the value
+    of 'jira.search.views.default.max' to a value that is lower than or equal to this
+    one.
+  key: jira.search.views.max.limit
+  name: Hard limit for the number of issues that can be exported
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: uint
+- admin-editable: 'false'
+  default-value: null
+  key: jira.search.views.max.unlimited.group
+  sysadmin-editable: 'false'
+  type: string
+- admin-editable: 'false'
+  default-value: '100'
+  key: jira.sendmail.recipient.batch.size
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: '200'
+  key: jira.subscription.email.max.issues
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: issuetype, issuekey, summary, priority
+  key: jira.table.cols.dashboard
+  sysadmin-editable: 'false'
+  type: list<string>
+- admin-editable: 'true'
+  advanced-settings-page: 'true'
+  default-value: issuetype, status, assignee, progress
+  description: The columns to show when viewing sub-task issues in a table
+  descriptionKey: jira.table.cols.subtasks.desc
+  key: jira.table.cols.subtasks
+  name: Jira subtasks table columns
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: list<string>
+  validator: com.atlassian.jira.bc.admin.NavigableFieldListValidator
+- admin-editable: 'false'
+  default-value: issuetype, issuekey, summary, priority, status
+  key: jira.table.cols.voted
+  sysadmin-editable: 'false'
+  type: list<string>
+- admin-editable: 'false'
+  default-value: issuetype, issuekey, summary, priority, status
+  key: jira.table.cols.watched
+  sysadmin-editable: 'false'
+  type: list<string>
+- admin-editable: 'false'
+  default-value: '50'
+  key: jira.table.gadget.max.rows
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: '200'
+  key: jira.thumbnail.maxheight
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: '200'
+  key: jira.thumbnail.maxwidth
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: '4'
+  key: jira.thumbnails.scaling.factor
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: uint
+- admin-editable: 'false'
+  default-value: 'true'
+  key: jira.timetracking.copy.comment.to.work.desc.on.transition
+  sysadmin-editable: 'false'
+  type: boolean
+- admin-editable: 'false'
+  default-value: 'false'
+  key: jira.option.timetracking
+  sysadmin-editable: 'false'
+  type: boolean
+- admin-editable: 'false'
+  default-value: '5'
+  key: jira.timetracking.days.per.week
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: 'true'
+  key: jira.timetracking.estimates.legacy.behaviour
+  sysadmin-editable: 'false'
+  type: boolean
+- admin-editable: 'false'
+  default-value: pretty
+  key: jira.timetracking.format
+  sysadmin-editable: 'false'
+  type: enum
+- admin-editable: 'false'
+  default-value: '8'
+  key: jira.timetracking.hours.per.day
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: '10000'
+  key: jira.timetracking.report.issues.limit
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'true'
+  default-value: Jira
+  key: jira.title
+  name: Jira application title
+  sysadmin-editable: 'true'
+  type: string
+- admin-editable: 'false'
+  default-value: '10000'
+  key: jira.trustedapps.timeout.default
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: '/sr/jira.issueviews:searchrequest
+
+    /secure/RunPortlet
+
+    /rest
+
+    /rpc/soap
+
+    /plugins/servlet/streams
+
+    /plugins/servlet/applinks'
+  key: jira.trustedapps.urlmatch.default
+  sysadmin-editable: 'false'
+  type: list<string>
+- admin-editable: 'false'
+  default-value: '1'
+  key: jira.upgrade.delay.minutes
+  sysadmin-editable: 'true'
+  type: uint
+- admin-editable: 'false'
+  default-value: 'false'
+  key: jira.upgrade.force.manual.schedule
+  sysadmin-editable: 'true'
+  type: boolean
+- admin-editable: 'false'
+  default-value: '200'
+  key: jira.usermanagement.maxdisplaymembers
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'true'
+  advanced-settings-page: 'true'
+  default-value: type, status, priority
+  description: Specifies the sort order of the issue links on the 'View Issue' screen.
+  descriptionKey: jira.view.issue.links.sort.order.desc
+  key: jira.view.issue.links.sort.order
+  name: Sort order for view issue links
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: list<string>
+  validator: com.atlassian.jira.bc.admin.LinkSortFieldListValidator
+- admin-editable: 'false'
+  default-value: 'false'
+  key: jira.view.issue.show.quicksubtask.when.no.subtasks
+  sysadmin-editable: 'false'
+  type: boolean
+- admin-editable: 'false'
+  default-value: cvsroot
+  key: jira.viewcvs.root.type
+  sysadmin-editable: 'false'
+  type: enum
+- admin-editable: 'false'
+  default-value: '1'
+  key: jira.webresource.flushcounter
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: '1'
+  key: jira.webresource.superbatch.flushcounter
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: 'false'
+  key: jira.websudo.is.disabled
+  sysadmin-editable: 'false'
+  type: boolean
+- admin-editable: 'false'
+  default-value: '10'
+  key: jira.websudo.timeout
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: 'true'
+  key: user.default.share.private
+  sysadmin-editable: 'false'
+  type: boolean
+- admin-editable: 'false'
+  default-value: '50'
+  key: user.issues.per.page
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: 'false'
+  key: user.keyboard.shortcuts.disabled
+  sysadmin-editable: 'false'
+  type: boolean
+- admin-editable: 'false'
+  default-value: html
+  key: user.notifications.mimetype
+  sysadmin-editable: 'false'
+  type: string
+- admin-editable: 'false'
+  default-value: 'false'
+  key: user.notify.own.changes
+  sysadmin-editable: 'false'
+  type: boolean
+- admin-editable: 'false'
+  default-value: 'true'
+  key: user.show.actions.in.navigator
+  sysadmin-editable: 'false'
+  type: boolean
+- admin-editable: 'false'
+  default-value: 'true'
+  key: user.external.links.new.window
+  sysadmin-editable: 'false'
+  type: boolean
+- admin-editable: 'false'
+  default-value: 'false'
+  key: jira.show.contact.administrators.form
+  sysadmin-editable: 'true'
+  type: boolean
+- admin-editable: 'false'
+  default-value: 'true'
+  key: show.plugin.marketing.hints
+  sysadmin-editable: 'false'
+  type: boolean
+- admin-editable: 'false'
+  advanced-settings-page: 'true'
+  default-value: null
+  key: jira.enabled.dark.features
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: string
+- admin-editable: 'false'
+  advanced-settings-page: 'true'
+  default-value: '32767'
+  description: The maximum number of characters to be entered for a single field.
+    Affects Description, Environment, Comments and Text custom fields. 0 means unlimited.
+  key: jira.text.field.character.limit
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: uint
+- admin-editable: 'false'
+  default-value: 'true'
+  description: Enables or disables built-in GZIP compression for web requests
+  key: jira.option.web.usegzip
+  sysadmin-editable: 'false'
+  type: boolean
+- admin-editable: 'false'
+  default-value: 'false'
+  description: Disables outgoing emails from Jira.
+  key: jira.mail.send.disabled
+  sysadmin-editable: 'false'
+  type: boolean
+- admin-editable: 'false'
+  default-value: 'false'
+  description: Disables fetching incoming emails in Jira.
+  key: jira.mail.fetch.disabled
+  sysadmin-editable: 'false'
+  type: boolean
+- admin-editable: 'false'
+  advanced-settings-page: 'true'
+  default-value: '1000'
+  description: The number of Issues to include in a stable search
+  descriptionKey: jira.search.stable.description
+  key: jira.search.stable.max.results
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: uint
+  validator: com.atlassian.jira.bc.admin.StableSearchResultCountValidator
+- admin-editable: 'false'
+  advanced-settings-page: 'true'
+  default-value: '20'
+  description: The number of issues to keep in the browser cache
+  descriptionKey: jira.search.cache.max.size.description
+  key: jira.search.cache.max.size
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: uint
+  validator: com.atlassian.jira.bc.admin.ViewIssueMaxCacheSizeValidator
+- admin-editable: 'true'
+  advanced-settings-page: 'true'
+  default-value: '4'
+  description: The minimum number of comments needing to be hidden for comment collapsing
+    to occur. 0 means there will be no comment collapsing.
+  descriptionKey: jira.comment.collapsing.minimum.hidden.description
+  key: jira.comment.collapsing.minimum.hidden
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: uint
+  validator: com.atlassian.jira.bc.admin.ViewIssueMinimumHiddenCommentsValidator
+- admin-editable: 'false'
+  advanced-settings-page: 'true'
+  default-value: null
+  description: Verification key for Google Webmaster Tools
+  descriptionKey: google.site.verification.key.description
+  key: google.site.verification.key
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: string
+- admin-editable: 'false'
+  default-value: '2'
+  key: ops.bar.group.size.opsbar-transitions
+  type: uint
+- admin-editable: 'false'
+  default-value: '0'
+  key: ops.bar.group.size.opsbar-admin
+  type: uint
+- admin-editable: 'false'
+  default-value: 'false'
+  key: jira.project.description.html.enabled
+  sysadmin-editable: 'true'
+  type: boolean
+- admin-editable: 'true'
+  default-value: 'true'
+  key: jira.rte.enabled
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: boolean
+- admin-editable: 'false'
+  default-value: 'false'
+  key: jira.custom.field.html.enabled
+  sysadmin-editable: 'true'
+  type: boolean
+- admin-editable: 'false'
+  default-value: 'true'
+  key: jira.user.avatar.gravatar.enabled
+  sysadmin-editable: 'false'
+  type: boolean
+- admin-editable: 'false'
+  default-value: '256'
+  key: jira.security.level.permission.cache.max.size
+  requires-restart: 'true'
+  sysadmin-editable: 'true'
+  type: uint
+- admin-editable: 'false'
+  default-value: '300000'
+  description: Default maximum size for com.atlassian.jira.issue.security.IssueSecurityLevelManagerImpl.projectAndUserToSecurityLevelCache.
+    If this value is set to 0, the cache size is unbounded.
+  key: jira.project.and.user.to.security.level.cache.max.size
+  requires-restart: 'true'
+  sysadmin-editable: 'true'
+  type: uint
+- admin-editable: 'true'
+  advanced-settings-page: 'true'
+  default-value: '7'
+  description: The number of days before a prompt to sign up to the Jira Insiders
+    newsletter is shown. A value of -1 disables this functionality.
+  descriptionKey: jira.newsletter.tip.delay.days.description
+  key: jira.newsletter.tip.delay.days
+  name: Delay in days before newsletter signup tip is shown
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: int
+- admin-editable: 'false'
+  advanced-settings-page: 'true'
+  default-value: '250'
+  description: The maximum number of issues that can be created via a single file
+    in CSV Importer available for non-administrators. 0 means non-admin CSV Importer
+    will be disabled.
+  descriptionKey: bulk.create.max.issues.per.import.description
+  key: jira.bulk.create.max.issues.per.import
+  name: Bulk Create ma issues per import
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: uint
+- admin-editable: 'false'
+  default-value: http://iris.stg.intsys.atlassian.com
+  key: onboarding.emails.server
+  name: Server base URL to send onboarding emails
+  requires-restart: 'false'
+  sysadmin-editable: 'false'
+  type: string
+- admin-editable: 'false'
+  default-value: 'true'
+  key: jira.fullUserCache
+  requires-restart: 'true'
+  sysadmin-editable: 'false'
+  type: boolean
+- admin-editable: 'false'
+  default-value: 'true'
+  key: jira.luceneUserSearcher
+  requires-restart: 'true'
+  sysadmin-editable: 'false'
+  type: boolean
+- admin-editable: 'false'
+  default-value: 'false'
+  key: jira.internUserValues
+  requires-restart: 'true'
+  sysadmin-editable: 'false'
+  type: boolean
+- admin-editable: 'false'
+  default-value: 'false'
+  key: jira.export.excel.enabled
+  requires-restart: 'true'
+  sysadmin-editable: 'false'
+  type: boolean
+- admin-editable: 'true'
+  advanced-settings-page: 'true'
+  default-value: 'true'
+  description: Set to "false" to prevent users from exporting JQL search results to
+    HTML table
+  key: jira.export.html.enabled
+  name: Allow exporting table of issues as HTML
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: boolean
+- admin-editable: 'true'
+  default-value: 'false'
+  key: jira.option.globalsharing
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: boolean
+- admin-editable: 'true'
+  advanced-settings-page: 'true'
+  default-value: '20'
+  description: The maximum number of concurrent searches that you can perform on a
+    single Jira instance by using the quick search.
+  descriptionKey: jira.quicksearch.max.concurrent.searches.description
+  key: jira.quicksearch.max.concurrent.searches
+  name: Quick search maximum number of concurrent searches
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: uint
+- admin-editable: 'true'
+  default-value: 'false'
+  key: jira.empty.jql.returns.no.data.enabled
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: boolean
+- admin-editable: 'true'
+  default-value: '5000'
+  description: By default favourite filters gadget returns counts of the filters in
+    it, sometimes it impacts performance. This settings allows admin to create global
+    value ( for all users ) to restrict the time for filter to load. Default value
+    is 5000 ms.
+  key: admin.generalconfiguration.favourite.filters.jql.execution.timeout
+  name: Maximum timeout of Favourite Filters gadget
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: string
+- admin-editable: 'true'
+  default-value: 'true'
+  key: jira.csv.export.dialog.enabled
+  sysadmin-editable: 'true'
+  type: boolean
+- admin-editable: 'false'
+  default-value: '30'
+  description: Number of days to retain Diagnostics Alerts
+  key: com.atlassian.jira.health.diagnostics.alerts.retention-period-days
+  name: Diagnostics retention period days
+  requires-restart: 'false'
+  sysadmin-editable: 'false'
+  type: int
+- admin-editable: 'false'
+  default-value: '1'
+  description: Number of days to run the truncation job
+  key: com.atlassian.jira.health.diagnostics.alerts.truncation-interval-days
+  name: Diagnostics truncation job interval in days
+  requires-restart: 'false'
+  sysadmin-editable: 'false'
+  type: int
+- admin-editable: 'false'
+  default-value: '5000'
+  description: Threshold in milliseconds defined for slow JQL query alerts.
+  key: jira.diagnostics.thresholds.slow-query-millis
+  name: Slow JQL query alert threshold
+  requires-restart: 'false'
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: '1000'
+  description: Threshold in number of returned issues from a JQL query for JQL alerts.
+  key: jira.diagnostics.thresholds.number-of-results
+  name: Number of results returned from JQL alert threshold
+  requires-restart: 'false'
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: '10000'
+  description: Query complexity alert threshold defined in number of Lucene query
+    clauses.
+  key: jira.diagnostics.thresholds.query-complexity
+  name: JQL query complexity alert threshold
+  requires-restart: 'false'
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: '1000'
+  description: Threshold for number of custom fields returned from a JQL query for
+    JQL alerts.
+  key: jira.diagnostics.thresholds.query-custom-fields
+  name: JQL query custom field alert threshold
+  requires-restart: 'false'
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: 'false'
+  description: Settings to include potentially exposing SQL queries in diagnostic
+    alerts
+  key: jira.diagnostics.settings.include-sql-in-alerts
+  name: Include SQL in Alerts
+  requires-restart: 'false'
+  sysadmin-editable: 'false'
+  type: boolean
+- admin-editable: 'false'
+  default-value: '80'
+  description: Threshold for raising an alert on database pool utilization
+  key: jira.diagnostics.threshold.database-pool-utilization
+  name: Database pool utilization threshold
+  requires-restart: 'false'
+  sysadmin-editable: 'false'
+  type: double
+- admin-editable: 'false'
+  default-value: '15'
+  description: Time window in minutes for tracking database pool utilization
+  key: jira.diagnostics.threshold.database-pool-utilization-time-window
+  name: Database pool utilization time window
+  requires-restart: 'false'
+  sysadmin-editable: 'false'
+  type: int
+- admin-editable: 'false'
+  default-value: '5'
+  description: Poller interval for database pool in seconds
+  key: jira.diagnostics.settings.database-pool-poller-interval
+  name: Database pool poller interval
+  requires-restart: 'false'
+  sysadmin-editable: 'false'
+  type: int
+- admin-editable: 'false'
+  default-value: '5'
+  description: Threshold for length of long running database query for raising an
+    alert in seconds
+  key: jira.diagnostics.threshold.long-running-query
+  name: Long running query threshold
+  requires-restart: 'false'
+  sysadmin-editable: 'false'
+  type: int
+- admin-editable: 'false'
+  default-value: '5'
+  description: Poller interval for long running database queries in seconds
+  key: jira.diagnostics.settings.long-running-query-poller-interval
+  name: Database long running query poller interval
+  requires-restart: 'false'
+  sysadmin-editable: 'false'
+  type: int
+- admin-editable: 'false'
+  default-value: '60'
+  description: Threshold for long running HTTP requests
+  key: jira.diagnostics.settings.http-request-max-elapsed-time
+  name: HTTP Request Max Elapsed time threshold
+  requires-restart: 'false'
+  sysadmin-editable: 'false'
+  type: int
+- admin-editable: 'false'
+  default-value: '5'
+  description: Poller interval for scheduler diagnostics in seconds
+  key: jira.diagnostics.settings.scheduler-poller-interval
+  name: Scheduler pool poller interval
+  requires-restart: 'false'
+  sysadmin-editable: 'false'
+  type: int
+- admin-editable: 'false'
+  default-value: '15'
+  description: Time window in minutes for tracking high scheduler utilization
+  key: jira.diagnostics.threshold.scheduler-utilization-time-window
+  name: Scheduler high utilization time window
+  requires-restart: 'false'
+  sysadmin-editable: 'false'
+  type: long
+- admin-editable: 'false'
+  default-value: '60'
+  description: Polling interval in seconds defining how frequent performance metrics
+    are logged to atlassian-jira-perf.log
+  key: jira.diagnostics.perflog.poll.seconds
+  name: Jira performance logging polling interval
+  requires-restart: 'true'
+  sysadmin-editable: 'true'
+  type: uint
+- admin-editable: 'false'
+  default-value: '20.0'
+  description: "\n                Threshold of the Old Gen garbage collection duration\
+    \ as a percentage of time.\n                The warning GC diagnostic message\
+    \ will be logged if total time spent on garbage collection\n                in\
+    \ the time window divided by the size of the time window exceeds this value.\n\
+    \            "
+  key: jira.diagnostics.thresholds.gc.warning.time-percentage
+  name: 'GC diagnostics: time percentage warning threshold'
+  requires-restart: 'true'
+  sysadmin-editable: 'true'
+  type: double
+- admin-editable: 'false'
+  default-value: '50.0'
+  description: "\n                Threshold of the Old Gen garbage collection duration\
+    \ as a percentage of time.\n                The error GC diagnostic message will\
+    \ be logged if total time spent on garbage collection\n                in the\
+    \ time window divided by the size of the time window exceeds this value.\n   \
+    \         "
+  key: jira.diagnostics.thresholds.gc.error.time-percentage
+  name: 'GC diagnostics: time percentage error threshold'
+  requires-restart: 'true'
+  sysadmin-editable: 'true'
+  type: double
+- admin-editable: 'false'
+  default-value: '15'
+  description: "\n                This ensures that the percentage of time spent on\
+    \ GC is calculated over longer period of time, which\n                averages\n\
+    \                single spikes and makes sure alerts are raised only when high\
+    \ GC load persists.\n                Setting it to e.g. 15 minutes means that\
+    \ current read of Garbage Collection statistics\n                will be compared\
+    \ to a read that happened at least 15 minutes ago.\n            "
+  key: jira.diagnostics.settings.gc.time-window-size-minutes
+  name: 'GC diagnostics: time window size in minutes'
+  requires-restart: 'true'
+  sysadmin-editable: 'true'
+  type: uint
+- admin-editable: 'false'
+  default-value: '60'
+  description: "\n                Garbage collection time polling interval in seconds.\
+    \ Controls the interval of storing\n                the consecutive GC statistics\
+    \ reads\n            "
+  key: jira.diagnostics.settings.gc.poller-interval-seconds
+  name: 'GC diagnostics: poller interval'
+  requires-restart: 'true'
+  sysadmin-editable: 'true'
+  type: uint
+- admin-editable: 'false'
+  default-value: 'false'
+  description: "\n                Controls whether information about threads that\
+    \ allocate the most memory should be included in alert\n                details.\
+    \ This data may be useful in troubleshooting issues but harvesting it requires\
+    \ stopping the JVM\n                which may affect application's performance.\n\
+    \            "
+  key: jira.diagnostics.settings.gc.include-top-allocations-in-alert-details
+  name: 'GC diagnostics: include top allocations in alert details'
+  requires-restart: 'true'
+  sysadmin-editable: 'true'
+  type: boolean
+- admin-editable: 'true'
+  default-value: '4'
+  description: How many times to retry a failed index replication operation. 0 means
+    no operations will be retried.
+  key: jira.index.replication.maxretries
+  requires-restart: 'true'
+  sysadmin-editable: 'true'
+  type: uint
+- default-value: text/plain;text/css;application/javascript;font/;image/;application/x-font
+  key: jira.filters.encoding.enforcer.excluded.mimes
+  type: string
+- key: jira.filters.encoding.enforcer.excluded.paths
+  type: string
+- admin-editable: 'false'
+  advanced-settings-page: 'true'
+  default-value: null
+  description: Comma-separated list of URL patterns that should not be affected by
+    rate limiting.
+  descriptionKey: com.atlassian.ratelimiting.whitelisted-url-patterns.description
+  key: com.atlassian.ratelimiting.whitelisted-url-patterns
+  name: Rate limiting whitelist
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: string
+- admin-editable: 'false'
+  advanced-settings-page: 'true'
+  default-value: null
+  description: Comma-separated list of oauth consumer keys that should not be affected
+    by rate limiting.
+  descriptionKey: com.atlassian.ratelimiting.whitelisted-oauth-consumers.description
+  key: com.atlassian.ratelimiting.whitelisted-oauth-consumers
+  name: Rate limiting whitelisted oauth consumer keys
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: string
+- admin-editable: 'true'
+  default-value: '2000000'
+  description: The maximum number of users that can be returned by a search. A value
+    lower than the number of users on the instance will lead to imprecise search results,
+    while high values will lead to higher memory footprint of user searches (even
+    if the actual number of users on the instance remains low).
+  key: jira.user.search.maxresults.limit
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: uint
+- admin-editable: 'false'
+  default-value: '60'
+  description: How often, in seconds, a cluster task cleanup service should run.
+  key: cluster.task.cleanup.run.interval
+  requires-restart: 'true'
+  sysadmin-editable: 'true'
+  type: uint
+- admin-editable: 'false'
+  default-value: '30'
+  description: Threshold in minutes after which a node is considered offline by the
+    cluster task cleanup service, allowing it to delete tasks from that node. The
+    minimum allowed value is 10 (lower values will be overwritten by Jira).
+  key: cluster.task.cleanup.offline.node.threshold
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: uint
+- admin-editable: 'false'
+  advanced-settings-page: 'true'
+  default-value: '2'
+  description: Threshold in days after which the deleted versions will be cleaned.
+    The default for this value is the same as default value for RETENTION_PERIOD of
+    ReplicatedIndexCleaningService
+  key: jira.entity.version.cleanup.deleted.retention.days
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: uint
+- admin-editable: 'false'
+  default-value: '0.3'
+  description: Delay in seconds that determines how much to wait for new keystrokes
+    in JQL autocomplete before sending search request. This determines the frequency
+    at which JQL autocomplete suggestions may submit requests. This setting is used
+    only when JQL Auto-complete is enabled in System >> General Configuration.
+  key: jira.jql.autocomplete.query.delay
+  requires-restart: 'true'
+  sysadmin-editable: 'false'
+  type: double
+- admin-editable: 'false'
+  default-value: '0'
+  description: Min number of characters to be typed in JQL autocomplete query before
+    suggestion search request is made. 0 means we start suggesting as soon as we type.
+    This setting is used only when JQL Auto-complete is enabled in System >> General
+    Configuration.
+  key: jira.jql.autocomplete.min.query.length
+  requires-restart: 'true'
+  sysadmin-editable: 'false'
+  type: uint
+- admin-editable: 'false'
+  default-value: 'false'
+  key: jira.xsrf.dialog.display.url.params.enabled
+  sysadmin-editable: 'true'
+  type: boolean
+- admin-editable: 'false'
+  advanced-settings-page: 'true'
+  default-value: null
+  description: Algorithm used to encrypt password stored in Embedded Crowd
+  key: crowd.encryption.encryptor.default
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: string
+  validator: com.atlassian.jira.crowd.embedded.encryptors.EncryptorPropertyValidator
+- admin-editable: 'false'
+  advanced-settings-page: 'true'
+  default-value: '168'
+  description: "Adds a security token to every image attachment displayed in email\
+    \ notifications. This allows users to view images in their notifications within\
+    \ the expiry time, which is 168 hours (7 days) by default. Setting it to 0 disables\
+    \ the tokens, but users won\u2019t see images at all."
+  key: jira.security.image.attachment.jwt.tokens.expiry.hours
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: long
+- admin-editable: 'true'
+  advanced-settings-page: 'true'
+  default-value: 'true'
+  description: "Recalculates the custom fields usage data based only on the information\
+    \ from the database, and can be used as a fallback method. It\u2019s a one-time\
+    \ recalculation, performed during the next run of the CustomFieldUsageRecalculationJob\
+    \ (see Scheduler details). Once it\u2019s completed successfully, the property\
+    \ is set back to false."
+  key: com.atlassian.jira.issue.fields.usage.init.required
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: boolean
+- admin-editable: 'true'
+  advanced-settings-page: 'false'
+  default-value: '1000'
+  description: Maximum number of custom fields in one database query that retrieves
+    custom field's usage information.
+  key: com.atlassian.jira.issue.fields.usage.query.max.ids
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: int
+- admin-editable: 'true'
+  advanced-settings-page: 'false'
+  default-value: 'null'
+  description: Information about last 'Issues with value' successful recalculation
+    date.
+  key: com.atlassian.jira.issue.fields.usage.calc.date
+  requires-restart: 'false'
+  sysadmin-editable: 'false'
+  type: String
+- admin-editable: 'false'
+  advanced-settings-page: 'true'
+  default-value: null
+  description: Mime types which should not have Content-Security-Policy set to sandbox.
+    Divided with semicolon.
+  key: jira.security.csp.sandbox.excluded.content.type
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: string
+  validator: com.atlassian.jira.web.filters.steps.security.csp.CspSandboxContentTypeValidator
+- admin-editable: 'false'
+  advanced-settings-page: 'true'
+  default-value: attachment
+  description: Content-Disposition types which should have Content-Security-Policy
+    set to sandbox (inline, attachment or both). Divided with semicolon.
+  key: jira.security.csp.sandbox.included.content.disposition
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: string
+  validator: com.atlassian.jira.web.filters.steps.security.csp.CspSandboxContentDispositionValidator
+- admin-editable: 'true'
+  default-value: 'true'
+  key: jira.issue.view.comment.reactions.enabled
+  sysadmin-editable: 'true'
+  type: boolean
+- admin-editable: 'false'
+  advanced-settings-page: 'false'
+  default-value: 'true'
+  key: jira.option.stacktraceOnErrorpage
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: boolean
+- admin-editable: 'false'
+  advanced-settings-page: 'true'
+  default-value: CHROME_DESKTOP:allow-same-origin;CHROME_ANDROID:allow-same-origin;CHROME_IOS:allow-scripts;SAFARI_DESKTOP:allow-scripts;SAFARI_IOS:allow-scripts
+  description: "\n                Adds additional clauses to responses containing\
+    \ CSP sandbox header. It should be specified like \"BROWSER:clause;BROWSER:clause\"\
+    .\n                Supported browsers are: \"EDGE_LEGACY_DESKTOP\", \"FIREFOX_DESKTOP\"\
+    , \"CHROME_DESKTOP\", \"CHROME_IOS\", \"CHROME_ANDROID\", \"SAFARI_DESKTOP\",\
+    \ \"SAFARI_IOS\", \"ANDROID\", \"OTHER\".\n                It is related to issues\
+    \ with audio/video attachments playback in Chrome and Safari: https://jira.atlassian.com/browse/JRASERVER-72275.\n\
+    \            "
+  key: jira.security.csp.sandbox.browser.differentiated.clauses
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: string
+  validator: com.atlassian.jira.web.filters.steps.security.csp.CspSandboxBrowserDifferentiationValidator
+- admin-editable: 'false'
+  description: "\n                Paths which should have different Content-Security-Sandbox\
+    \ sandbox policies set, to workaround their bugs.\n                Servlet paths\
+    \ should be divided with semicolons.\n                It is related to issues\
+    \ with audio/video attachments playback in Chrome and Safari: https://jira.atlassian.com/browse/JRASERVER-72275.\n\
+    \            "
+  key: jira.security.csp.sandbox.browser.differentiated.paths
+  requires-restart: 'true'
+  sysadmin-editable: 'false'
+  type: string
+- admin-editable: 'false'
+  advanced-settings-page: 'true'
+  default-value: null
+  description: "\n                List of users, who should have duplicated user accounts.\
+    \ If you are sure that this is needed please\n                specify usernames\
+    \ as a list divided by ampersands. Otherwise please deactivate not needed accounts.\n\
+    \                Related JAC ticket: https://jira.atlassian.com/browse/JRASERVER-68797\n\
+    \            "
+  key: jira.security.duplicated.user.accounts
+  requires-restart: 'false'
+  sysadmin-editable: 'true'
+  type: string
+  validator: com.atlassian.jira.user.util.DuplicatedUsersPropertyValidator
+
