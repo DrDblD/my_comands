@@ -157,3 +157,14 @@ kubectx - инструмент для переключения между кла
 kubectl-capacity - инструмент для отображения используемых ресурсов кластера
 kimages - инструмент для получения сведений об используемых образах контейнеров
 rakkess - инструмент для просмотра различных прав
+
+
+nexus3 login
+
+
+kubectl get deploy --all-namespaces -o yaml
+
+kubectl get deploy hr-deployment -n lisa-dev -o yaml
+
+man /opt/cprocsp/share/man/man8/stunnel.ru.8
+
