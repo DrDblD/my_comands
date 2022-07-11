@@ -168,3 +168,6 @@ kubectl get deploy hr-deployment -n lisa-dev -o yaml
 
 man /opt/cprocsp/share/man/man8/stunnel.ru.8
 
+
+alias startvenv='source ${HOME}/repos/.env/bin/activate'
+alias startscreen='screen -L -Logfile ~/$(date "+%d_%m_%Y").screen.log -t $(date "+%d.%m.%Y") bash -ic "HISTFILE=~/.bash_history.${WINDOW} bash"'

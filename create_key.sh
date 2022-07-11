@@ -11,7 +11,7 @@
 # cd ~
 
 ### one string way ###
-# echo "atab" | (read p1; ssh-keygen -f ~/.ssh/$p1; cat $(find . -name $p1.pub); read $host; echo -e "Host $host\n  HostName $host\n  User ${USER} \n  IdentityFile ~/.ssh/$p1\n  IdentitiesOnly yes\n  HostKeyAlgorithms=+ssh-rsa" >> ~/.ssh/config
+# echo "atab" | (read p1; ssh-keygen -f ~/.ssh/$p1; cat $(find . -name $p1.pub); read $host; echo -e "Host $host\n  HostName $host\n  User ${USER} \n  IdentityFile ~/.ssh/$p1\n  IdentitiesOnly yes\n  HostKeyAlgorithms=+ssh-rsa" >> ~/.ssh/config )
 
 ### two string way ###
 NAME=$@
