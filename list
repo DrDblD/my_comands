@@ -1,3 +1,29 @@
+systemctl stop mysqld
+mysqld -u mysql --skip-grant-tables &
+echo "UPDATE mysql.user SET authentication_string = '*A198CE531C146BAB4829C95894FBCDD48E2DB1E6' WHERE User = 'root' AND Host = 'localhost'; FLUSH PRIVILEGES; quit" > path/to/test.sql
+mysql -u mysql mysql < path/to/test.sql
+systemctl start mysqld
+
+mysql -u [UserName] -p[Password] [DB_Name] -sNe 'show tables' | while read table; do mysql -u [UserName] -p [PassWord] -sNe "RENAME TABLE [DB_Name].$table TO [New_DB_Name].$table"; done
+
+mysqldump -alv -u [UserName] --password=[Password] [DB_Name] 2> /tmp/dump.log | mysql -u [UserName] --password=[Password] [New_DB_Name] &
+
+mysql -u root -p -sNe "`mysql -u root -p -sNe "SELECT CONCAT('SHOW GRANTS FOR \'',user,'\'@\'',host,'\';') FROM mysql.user WHERE user NOT LIKE 'mysql%';"`"
+
+jobs -l
+disown -h %1
+
+в любой непонятной ситуации врубай от рута
+
+journalctl -f
+
+желательно ещё 
+
+tail -f /var/log/messages /var/log/secure /var/log/audit/audit.log
+
+
+nslookup -type=srv _ldap._tcp.dc._msdcs.EXAMPLE_DOMAIN.COM
+
 # ssh copy file
 #       scp <source> <destination> 
 # To copy a file from B to A while logged into B:
@@ -73,8 +99,12 @@ docker build -t test-test . >> log.build
 docker run --name container_ssh -i -t test-test
 docker rm container_ssh
 docker ps --all | grep /bin | awk '{print $1}' | xargs docker rm
+docker rm $(docker ps --all -q)
 docker images --all
 docker images --all | grep none | awk '{print $3}' | xargs docker rmi
+docker rmi $(docker images --all -q)
+docker ps --all | awk '{print $1}' | grep -v CONTAINER | xargs docker stats
+
 
 docker commit jira jira:debian-11-postgres-13
 docker tag jira:debian-11-postgres-13 jira:latest
@@ -165,6 +195,9 @@ nexus3 login
 kubectl get deploy --all-namespaces -o yaml
 
 kubectl get deploy hr-deployment -n lisa-dev -o yaml
+
+crictl rm -f $(crictl --runtime-endpoint unix:///var/run/crio/crio.sock ps -aq) && kubeadm reset
+crictl --runtime-endpoint unix:///var/run/crio/crio.sock ps -a
 
 man /opt/cprocsp/share/man/man8/stunnel.ru.8
 
