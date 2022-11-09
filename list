@@ -1,3 +1,17 @@
+cp /dev/null /tmp/curl1.log && \
+for i in {1..1000}; 
+     do curl --request POST 'http://gotenberg-service.gotenberg/forms/libreoffice/convert' \
+          --form 'files=@"/tmp/demo.docx"' \
+          --form 'landscape="true"' -o my.pdf \
+          -s -w "%{http_code}\n" | tee -a /tmp/curl1.log;
+     done
+
+# netstat, tracert и пр.
+kubectl run tmp-shell --rm -i --tty --image nicolaka/netshoot
+
+# Recursively compare two directories with diff -r without output on broken links
+for f in `find a/* ! -type l`;do diff -rq $f b/${f##*/};done
+
 systemctl stop mysqld
 mysqld -u mysql --skip-grant-tables &
 echo "UPDATE mysql.user SET authentication_string = '*A198CE531C146BAB4829C95894FBCDD48E2DB1E6' WHERE User = 'root' AND Host = 'localhost'; FLUSH PRIVILEGES; quit" > path/to/test.sql
@@ -197,6 +211,7 @@ kubectl get deploy --all-namespaces -o yaml
 kubectl get deploy hr-deployment -n lisa-dev -o yaml
 
 crictl rm -f $(crictl --runtime-endpoint unix:///var/run/crio/crio.sock ps -aq) && kubeadm reset
+crictl rm -f $(crictl ps -aq) && echo y | kubeadm reset
 crictl --runtime-endpoint unix:///var/run/crio/crio.sock ps -a
 
 man /opt/cprocsp/share/man/man8/stunnel.ru.8
