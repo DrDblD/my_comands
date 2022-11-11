@@ -12,3 +12,7 @@ csptest -tlsc -server localhost -port 8443 -exchange 3 -proto 6 -autocheck -verb
 cpconfig -loglevel ocsp -mask 0xF  && cpconfig -loglevel ocsp_fmt -mask 0x39 && cpconfig -loglevel tsp -mask 0xF && cpconfig -loglevel tsp_fmt -mask 0x39 && cpconfig -loglevel cades -mask 0xF && cpconfig -loglevel cades_fmt -mask 0x39
 
 csptest -absorb -certs
+
+csptest -keyset -enum_cont -fqcn -verifyc
+
+csptest -keycopy -contsrc \\.\HDIMAGE\TestUser23 -contdest \\.\HDIMAGE\TestUser23copy -pindest 123 -silent
