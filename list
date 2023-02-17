@@ -1,3 +1,7 @@
+
+
+echo -e "$https_proxy\n$HTTPS_PROXY\n$http_proxy\n$HTTP_PROXY\n$no_proxy\n$NO_PROXY"
+
 cp /dev/null /tmp/curl1.log && \
 for i in {1..1000}; 
      do curl --request POST 'http://gotenberg-service.gotenberg/forms/libreoffice/convert' \
@@ -114,8 +118,15 @@ docker run --name container_ssh -i -t test-test
 docker rm container_ssh
 docker ps --all | grep /bin | awk '{print $1}' | xargs docker rm
 docker rm $(docker ps --all -q)
+# docker rm -f $(docker ps --all -q)
 docker images --all
-docker images --all | grep none | awk '{print $3}' | xargs docker rmi
+
+docker images --format ' {{.Size}} {{.Repository}}:{{.Tag}}'
+
+# docker images --all | grep none | awk '{print $3}' | xargs docker rmi
+docker rmi $(docker images -f "dangling=true" -q)
+      
+docker images --all | grep "poidem.ru/ops/k8s/" | awk '{print $3}' | xargs docker rmi
 docker rmi $(docker images --all -q)
 docker ps --all | awk '{print $1}' | grep -v CONTAINER | xargs docker stats
 
@@ -125,6 +136,9 @@ docker tag jira:debian-11-postgres-13 jira:latest
 
 docker attach
 Docker supports a keyboard combination to gracefully detach from a container. Press Ctrl-P, followed by Ctrl-Q
+
+# PGADMIN
+docker run --rm -d --name my-pgadmin -p 82:80 -e 'PGADMIN_DEFAULT_EMAIL=user@domain.local' -e 'PGADMIN_DEFAULT_PASSWORD=postgresmaster' dpage/pgadmin4
 
 # gitlab-runer
 docker volume create gitlab-runner-config
